@@ -1,0 +1,10 @@
+Quantitative Reasoning
+[se]
+a permutation on n objects taken k at a time. The | distinct objects called a combinations of n objects
+aPe= Ce
+
+permutations is given by:
+Probabilities
+Probabilities = Complement Rule
+
+GRE Revised General Test | 149
