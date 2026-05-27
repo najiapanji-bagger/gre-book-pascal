@@ -1,0 +1,1333 @@
+[
+  {
+    "id": "ch05-q001",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 1,
+    "type": "logic_based_reading",
+    "sourcePage": "page_073",
+    "imagePath": "extracted_images/images/page_073.jpg",
+    "prompt": "Total contributions by individuals to political parties were up 25 percent in this most recent presidential election over those of four years earlier. Hence, it is obvious that people are no longer as apathetic as they were, but are taking a greater interest in politics.",
+    "questionStem": "Which of the following, if true, would considerably weaken the preceding argument?",
+    "choices": {
+      "A": "The average contribution per individual actually declined during the same four-year period.",
+      "B": "Per capita income of the population increased by 15 percent during the four years in question.",
+      "C": "Public leaders continue to warn citizens against the dangers of political apathy.",
+      "D": "Contributions made by large corporations to political parties declined during the four-year period.",
+      "E": "Fewer people voted in the most recent presidential election than in the one four years earlier."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["Fewer people voted in the most recent presidential election than in the one four years earlier."],
+    "argumentMap": {
+      "premise": "Political contributions by individuals increased 25 percent compared with four years earlier.",
+      "conclusion": "People are less apathetic and more interested in politics.",
+      "assumption": "A higher total of donations comes from more people participating rather than from a few donors giving larger amounts.",
+      "logicalGap": "The argument equates total dollar amounts with the number of participants and ignores voter turnout.",
+      "structure": "Inductive argument drawing a causal conclusion from observed data."
+    },
+    "clueKeywords": [
+      {"keyword": "apathetic", "meaning": "Displaying little or no interest, concern or emotion", "whyImportant": "Clarifies that the argument is about overall engagement, not just money."},
+      {"keyword": "25 percent increase", "meaning": "Total donations rose by a quarter", "whyImportant": "Shows that the premise concerns monetary amounts, not the number of donors."},
+      {"keyword": "Fewer people voted", "meaning": "Voter turnout was lower than before", "whyImportant": "Undermines the claim that people are less apathetic despite higher donations."}
+    ],
+    "logicalReasoning": "Increased donations could come from a small group giving more money. Evidence that voter turnout declined shows that the public is not necessarily more engaged, weakening the conclusion.",
+    "answerLogic": "If fewer people actually participate in elections, the rise in donations cannot by itself demonstrate reduced apathy.",
+    "wrongChoices": {
+      "A": "A lower average donation could be explained by more donors rather than fewer, so it does not weaken the claim.",
+      "B": "Higher incomes could lead to larger donations without implying greater political interest.",
+      "C": "Warnings about apathy do not measure actual participation.",
+      "D": "A decline in corporate donations implies individuals contributed more, which could support the conclusion."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "causal_reasoning"]
+  },
+  {
+    "id": "ch05-q002",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 2,
+    "type": "logic_based_reading",
+    "sourcePage": "page_073",
+    "imagePath": "extracted_images/images/page_073.jpg",
+    "prompt": "Animal-rights supporters in the United States have, in the last two years, increased their activities protesting the use of animals for furs. During this period fur coat sales began to decrease steadily. Therefore, the activities of the animal-rights supporters must have been the cause of the decline in fur sales.",
+    "questionStem": "Which of the following, if true, would be most damaging to the argument above?",
+    "choices": {
+      "A": "In the past two years, production problems have restricted the supply of furs, making each fur coat more expensive.",
+      "B": "Fur coats are very warm, and in the past two years several northern regions in the United States have experienced record cold winters, causing an increase in the need for warm outer wear.",
+      "C": "In the past several years, fur-industry analysts have noted that middle-income consumers are buying more fur coats than previously.",
+      "D": "In the past few years, protests by animal-rights supporters have caused many celebrities to speak out against the fur industry.",
+      "E": "At the recent fur fashion shows, many of the furs were sheared and dyed bright colours so that they resembled velvet rather than fur."
+    },
+    "correctAnswerKeys": ["A"],
+    "correctAnswerTexts": ["In the past two years, production problems have restricted the supply of furs, making each fur coat more expensive."],
+    "argumentMap": {
+      "premise": "Protests by animal-rights supporters increased and fur-coat sales declined over the same period.",
+      "conclusion": "The protests caused the decline in fur sales.",
+      "assumption": "No other major factor caused fur sales to decline; therefore the protests are the primary cause.",
+      "logicalGap": "Correlation is treated as causation without ruling out alternative explanations.",
+      "structure": "Causal inference based on temporal correlation."
+    },
+    "clueKeywords": [
+      {"keyword": "increased their activities", "meaning": "More frequent or vigorous protests", "whyImportant": "Sets up the temporal link used to infer causation."},
+      {"keyword": "sales decreased", "meaning": "Observed decline in fur-coat purchases", "whyImportant": "Provides the outcome that requires explanation."},
+      {"keyword": "production problems", "meaning": "Supply restrictions that make fur coats more expensive", "whyImportant": "Offers an alternative cause for declining sales."}
+    ],
+    "logicalReasoning": "The argument assumes that protests are the only significant change affecting fur sales. Introducing a credible alternative cause — supply problems that raise prices — undermines this causal link.",
+    "answerLogic": "If fur coats became scarce and expensive due to production problems, sales would fall regardless of protests, so the protests cannot be confidently named as the cause.",
+    "wrongChoices": {
+      "B": "Colder weather would normally increase demand for warm coats, which runs counter to the observed decline.",
+      "C": "More purchases by middle-income consumers would increase sales, not decrease them, and thus does not explain the decline.",
+      "D": "Celebrity criticism is similar to the activists’ actions and therefore supports rather than undermines the causal link.",
+      "E": "Changes in style might influence demand but do not provide as strong an alternative explanation as a supply shortage."
+    },
+    "finalAnswer": "A",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "causal_reasoning"]
+  },
+  {
+    "id": "ch05-q003",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 3,
+    "type": "logic_based_reading",
+    "sourcePage": "page_073",
+    "imagePath": "extracted_images/images/page_073.jpg",
+    "prompt": "The percentage of patients who die while being treated at Hospital M is almost twice as large as the percentage of patients who die while being treated at Hospital R. Therefore, the doctors at Hospital R are more skilled than those at Hospital M.",
+    "questionStem": "Which of the following, if true, most seriously weakens the conclusion of the argument above?",
+    "choices": {
+      "A": "Doctors at Hospital M, on average, have as many years of experience at practicing medicine in a hospital setting as those at Hospital R.",
+      "B": "The ratio of doctors to patients at Hospital M is greater than the ratio of doctors to patients at Hospital R.",
+      "C": "Hospital M specialises in acute cardiovascular issues and treats a much higher percentage of acutely ill patients than does Hospital R.",
+      "D": "The county health department has reprimanded Hospital R for violations of the local health code that Hospital M has not committed.",
+      "E": "The average length of stay for patients at Hospital M is significantly longer than the average length of stay for patients at Hospital R."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["Hospital M specialises in acute cardiovascular issues and treats a much higher percentage of acutely ill patients than does Hospital R."],
+    "argumentMap": {
+      "premise": "The death rate for patients at Hospital M is nearly twice that of Hospital R.",
+      "conclusion": "Doctors at Hospital R must be more skilled than doctors at Hospital M.",
+      "assumption": "All other factors affecting patient mortality are comparable across the two hospitals.",
+      "logicalGap": "Ignores differences in patient populations and case severity.",
+      "structure": "Comparative inference based on observed statistics."
+    },
+    "clueKeywords": [
+      {"keyword": "death rate", "meaning": "Proportion of patients who die during treatment", "whyImportant": "Forms the basis for comparing hospitals."},
+      {"keyword": "acutely ill patients", "meaning": "Patients with severe or life-threatening conditions", "whyImportant": "A higher proportion of severely ill patients would naturally lead to higher mortality unrelated to doctor skill."}
+    ],
+    "logicalReasoning": "The argument presumes that a higher death rate reflects inferior medical skill. If Hospital M treats more critically ill patients, its death rate could be higher regardless of doctor competence.",
+    "answerLogic": "Showing that Hospital M treats a sicker patient population undermines the inference that its doctors are less skilled, because the higher mortality can be explained by case mix rather than incompetence.",
+    "wrongChoices": {
+      "A": "Equal years of experience does not address the patient mix; it leaves the conclusion intact.",
+      "B": "A higher doctor-to-patient ratio at Hospital M could, if anything, suggest better care and does not explain the mortality difference.",
+      "D": "Health code violations at Hospital R do not bear directly on the relative skill of its doctors.",
+      "E": "Longer average stays might result from more serious illnesses and thus support the explanation in option C rather than weaken it."
+    },
+    "finalAnswer": "C",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "comparative_analysis"]
+  },
+  {
+    "id": "ch05-q004",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 4,
+    "type": "logic_based_reading",
+    "sourcePage": "page_073",
+    "imagePath": "extracted_images/images/page_073.jpg",
+    "prompt": "Many people ask, ‘How effective is PainAway?’ So, to find out we have been checking the medicine cabinets of the apartments in this building. As it turns out, eight out of ten contain a bottle of PainAway. Doesn’t it stand to reason that you, too, should have the most effective pain reliever on the market?",
+    "questionStem": "The appeal of this advertisement would be most weakened by which of the following pieces of evidence?",
+    "choices": {
+      "A": "PainAway distributed complimentary bottles of medicine to most apartments in the building two days before the advertisement aired.",
+      "B": "The actor who is featured in the advertisement takes a pain reliever manufactured by a competitor of PainAway.",
+      "C": "Most people want a fast, effective pain reliever.",
+      "D": "Many people take the advice of their doctors rather than that of commercials about pain relievers.",
+      "E": "A government survey shows that many people take a pain reliever before it is really needed."
+    },
+    "correctAnswerKeys": ["A"],
+    "correctAnswerTexts": ["PainAway distributed complimentary bottles of medicine to most apartments in the building two days before the advertisement aired."],
+    "argumentMap": {
+      "premise": "Eight out of ten medicine cabinets in the surveyed building contain PainAway.",
+      "conclusion": "Therefore PainAway is the most effective pain reliever and you should buy it.",
+      "assumption": "The presence of PainAway in medicine cabinets indicates that residents choose it for its effectiveness and not for other reasons.",
+      "logicalGap": "Assumes that usage equates to effectiveness; fails to consider promotional distribution.",
+      "structure": "Appeal to popularity as evidence of quality."
+    },
+    "clueKeywords": [
+      {"keyword": "eight out of ten", "meaning": "Eighty percent of surveyed cabinets contain PainAway", "whyImportant": "Forms the main statistic underlying the advertising claim."},
+      {"keyword": "distributed complimentary bottles", "meaning": "Free samples were given out", "whyImportant": "Shows that the prevalence may be due to marketing, not effectiveness."}
+    ],
+    "logicalReasoning": "If the company provided free samples, the high presence of PainAway does not indicate genuine consumer preference for its effectiveness.",
+    "answerLogic": "Evidence that most cabinets contain PainAway because it was given away free undermines the argument that widespread use demonstrates efficacy.",
+    "wrongChoices": {
+      "B": "An actor’s personal choice has little bearing on the general population’s use.",
+      "C": "Desire for effective pain relief does not address whether PainAway is effective.",
+      "D": "People following doctors’ advice does not directly relate to the advertisement’s statistic.",
+      "E": "A general survey on pain reliever use does not undermine the link between PainAway’s presence and its effectiveness."
+    },
+    "finalAnswer": "A",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "advertisement"]
+  },
+  {
+    "id": "ch05-q005",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 5,
+    "type": "logic_based_reading",
+    "sourcePage": "page_074",
+    "imagePath": "extracted_images/images/page_074.jpg",
+    "prompt": "Of the graduating students from Governor Smith Academy, a private high school, 93 percent go on to college. From Eastern High, the public high school in the same city, only 74 percent go on to attend college. As a result, many parents with children about to enter high school believe that Governor Smith Academy gives students a better education than they can get at Eastern High School.",
+    "questionStem": "The conclusion of these parents is most weakened by which of the following additional facts?",
+    "choices": {
+      "A": "Until 1992, Governor Smith Academy was exclusively a girls’ school, but Eastern High School has always been coeducational.",
+      "B": "Governor Smith Academy requires students to pass an admissions examination before entering, but Eastern High School admits all applicants who live in the city.",
+      "C": "Eastern High School has problems with severe student violence during school hours.",
+      "D": "Governor Smith Academy has a higher percentage of students attending Ivy League colleges than any other high school in the state.",
+      "E": "Eastern High School receives its funding from local property taxes, while Governor Smith Academy receives funding from tuition costs and from alumni donations."
+    },
+    "correctAnswerKeys": ["B"],
+    "correctAnswerTexts": ["Governor Smith Academy requires students to pass an admissions examination before entering, but Eastern High School admits all applicants who live in the city."],
+    "argumentMap": {
+      "premise": "A greater percentage of Governor Smith Academy graduates attend college compared with Eastern High graduates.",
+      "conclusion": "Governor Smith Academy provides a better education than Eastern High.",
+      "assumption": "Student populations at the two schools are comparable in ability and motivation.",
+      "logicalGap": "Fails to consider selection bias: the private school screens students while the public school does not.",
+      "structure": "Comparison based on outcomes without controlling for input differences."
+    },
+    "clueKeywords": [
+      {"keyword": "93 percent", "meaning": "Proportion of Governor Smith Academy graduates who attend college", "whyImportant": "Supports the claim about superior outcomes."},
+      {"keyword": "74 percent", "meaning": "Proportion of Eastern High graduates who attend college", "whyImportant": "Provides the comparison point."},
+      {"keyword": "admissions examination", "meaning": "Entrance test selecting students", "whyImportant": "Indicates the private school may admit only higher-performing students."}
+    ],
+    "logicalReasoning": "If the private school screens for academically stronger students, its higher college placement rate could be due to student selection rather than superior teaching, weakening the inference about educational quality.",
+    "answerLogic": "By pointing out that Governor Smith Academy requires an entrance exam while Eastern High admits all local students, option B suggests that differences in student quality, not schooling, explain the disparity.",
+    "wrongChoices": {
+      "A": "The school’s single-sex history does not directly affect college placement rates.",
+      "C": "Violence problems at Eastern High might discourage learning but do not explain why its students go to college at a lower rate relative to the ability of incoming students.",
+      "D": "Attending Ivy League schools does not refute the possibility that the private school already admits more capable students.",
+      "E": "Funding sources alone do not account for student outcomes without considering admissions policies."
+    },
+    "finalAnswer": "B",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "selection_bias"]
+  },
+  {
+    "id": "ch05-q006",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 6,
+    "type": "logic_based_reading",
+    "sourcePage": "page_074",
+    "imagePath": "extracted_images/images/page_074.jpg",
+    "prompt": "Using sophisticated software-based technologies, researchers are now able to analyse layers of paint that lie buried beneath the surface of old paintings. These researchers claim, for example, that additional mountainous scenery once appeared in Leonardo da Vinci’s Mona Lisa, but that this scenery was later painted over. Skeptics reply to these claims, however, that X-ray examinations of the Mona Lisa do not show hidden mountains.",
+    "questionStem": "Which of the following, if true, would tend most to weaken the force of the skeptics’ objections?",
+    "choices": {
+      "A": "There is no written or anecdotal record that Leonardo da Vinci ever painted over major areas of his Mona Lisa.",
+      "B": "Painters of da Vinci’s time commonly created images of mountainous backgrounds within portraits like the Mona Lisa.",
+      "C": "No one knows for certain which parts of the Mona Lisa may have been painted by da Vinci’s assistants rather than by da Vinci himself.",
+      "D": "In addition to X-ray examinations, infrared photography of the Mona Lisa has also not revealed any trace of hidden mountainous scenery.",
+      "E": "Analysis relying on X-ray only has the capacity to detect lead-based white pigments in layers of paint beneath a painting’s surface layers."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["Analysis relying on X-ray only has the capacity to detect lead-based white pigments in layers of paint beneath a painting’s surface layers."],
+    "argumentMap": {
+      "premise": "Researchers using modern techniques claim hidden mountains were once in the Mona Lisa; skeptics point to X-ray images showing no such features.",
+      "conclusion": "Skeptics argue that the absence of mountains in X-ray images undermines the claim of hidden scenery.",
+      "assumption": "X-ray examinations should detect any concealed images beneath the painting’s surface.",
+      "logicalGap": "Assumes that X-ray detection is capable of revealing all types of pigments or layers.",
+      "structure": "Counterargument based on limitations of evidence."
+    },
+    "clueKeywords": [
+      {"keyword": "X-ray examinations", "meaning": "Imaging technique that detects certain pigments", "whyImportant": "The skeptics rely on this method to refute hidden mountains."},
+      {"keyword": "lead-based white pigments", "meaning": "Pigments visible on X-ray", "whyImportant": "Shows that X-rays may not reveal all colours or features."}
+    ],
+    "logicalReasoning": "If X-rays detect only lead-based pigments, they could fail to reveal mountains painted with other pigments. This would weaken the skeptics’ reliance on X-ray evidence.",
+    "answerLogic": "Option E explains that X-ray imaging is limited to detecting lead-based white pigments. Hidden mountains painted with other pigments could exist, so the absence of mountains on X-ray does not refute the researchers’ claim.",
+    "wrongChoices": {
+      "A": "Lack of historical records does not address the limitations of X-ray technology.",
+      "B": "Common artistic practices do not show whether mountains were painted over in this case.",
+      "C": "Authorship uncertainty does not bear on the ability of X-rays to detect hidden images.",
+      "D": "Infrared photography also failing to show mountains would strengthen the skeptics’ case, not weaken it."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "evidence_limitations"]
+  },
+  {
+    "id": "ch05-q007",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 7,
+    "type": "logic_based_reading",
+    "sourcePage": "page_074",
+    "imagePath": "extracted_images/images/page_074.jpg",
+    "prompt": "Acme Company markets high-tech recording and videotaping materials for sale to parents for the purpose of secretly recording the activities of their babysitters and nannies while they are away from home. In defending their products, an Acme representative argued, ‘More than 75 percent of the parents buying our surveillance equipment fire their babysitters or nannies within two weeks of their starting work. This proves that we have a nationwide problem with misconduct by all babysitters and nannies.’",
+    "questionStem": "Which of the following, if true, would most contradict the conclusion of the Acme representative’s argument?",
+    "choices": {
+      "A": "Secretly recording or videotaping people without their consent is unconstitutional.",
+      "B": "The customers who use Acme Company’s product are representative of the nationwide problem.",
+      "C": "Of all the nannies who are fired in this country, more than 75 percent are illegal aliens.",
+      "D": "Most of the people who use Acme Company’s products suspected their babysitters of misconduct before using the equipment.",
+      "E": "After six months of use, Acme Company’s surveillance equipment tends to break down and become unreliable."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["Most of the people who use Acme Company’s products suspected their babysitters of misconduct before using the equipment."],
+    "argumentMap": {
+      "premise": "A majority of parents using Acme’s surveillance equipment fire their babysitters or nannies soon after they start work.",
+      "conclusion": "There is a nationwide problem with misconduct by all babysitters and nannies.",
+      "assumption": "Parents who buy the surveillance equipment are representative of all families employing child-care workers.",
+      "logicalGap": "Assumes that the sample of parents using the product is unbiased and that their high firing rate reflects general misconduct.",
+      "structure": "Generalisation from a biased sample."
+    },
+    "clueKeywords": [
+      {"keyword": "more than 75 percent", "meaning": "High proportion of customers firing child-care workers", "whyImportant": "Basis for the conclusion about misconduct."},
+      {"keyword": "suspected misconduct", "meaning": "Parents had pre-existing concerns", "whyImportant": "Indicates selection bias; the sample is not representative."}
+    ],
+    "logicalReasoning": "If customers already suspected their caregivers, they are more likely to find misconduct and dismiss them, so the sample is biased and cannot be generalised to all babysitters and nannies.",
+    "answerLogic": "Option D shows that many buyers already thought their caregivers were problematic, so their high firing rate does not indicate a nationwide problem but reflects their prior suspicions.",
+    "wrongChoices": {
+      "A": "Legal considerations about privacy do not address the representativeness of the sample.",
+      "B": "Asserting representativeness supports the conclusion rather than contradicting it.",
+      "C": "Information about the immigration status of fired nannies does not undermine the reasoning.",
+      "E": "Product reliability after six months has no bearing on the firing rate within two weeks."
+    },
+    "finalAnswer": "D",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "sampling_bias"]
+  },
+  {
+    "id": "ch05-q008",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 8,
+    "type": "logic_based_reading",
+    "sourcePage": "page_074",
+    "imagePath": "extracted_images/images/page_074.jpg",
+    "prompt": "Within the advertising community, debate has long raged over the effectiveness of humorous commercials. Those who advocate using humor to sell products like to point to survey results, which show that ordinary consumers are almost twice as likely to recall a humorous commercial as they are to recall a serious commercial.",
+    "questionStem": "Which of the following, if true, most weakens the argument made by the advocates of humor in advertising?",
+    "choices": {
+      "A": "The consumers surveyed about humorous commercials included people considered unlikely to buy the particular products advertised.",
+      "B": "According to viewer ratings, the popularity of humorous television programming has been declining in recent years.",
+      "C": "Although most consumers surveyed were able to recall viewing humorous commercials, many said they enjoyed the serious commercials more.",
+      "D": "For certain types of products, humorous advertising would be inappropriate and potentially offensive.",
+      "E": "Although most consumers surveyed were able to recall viewing humorous commercials, most failed to recall the name of the product advertised."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["Although most consumers surveyed were able to recall viewing humorous commercials, most failed to recall the name of the product advertised."],
+    "argumentMap": {
+      "premise": "Surveys show consumers are almost twice as likely to recall a humorous commercial as a serious one.",
+      "conclusion": "Humorous commercials are more effective at selling products.",
+      "assumption": "Being remembered translates into better product sales and brand recall.",
+      "logicalGap": "Equates recall of the advertisement with recall of the product or increased purchasing behaviour.",
+      "structure": "Argument from evidence of recall to claim of greater effectiveness."
+    },
+    "clueKeywords": [
+      {"keyword": "recall", "meaning": "Ability to remember having seen the commercial", "whyImportant": "Basis for the claim that humour improves effectiveness."},
+      {"keyword": "failed to recall the name", "meaning": "Viewers did not remember the advertised product", "whyImportant": "Shows that recall of the commercial does not translate into brand recall."}
+    ],
+    "logicalReasoning": "The advocates assume that remembering the commercial leads to remembering the product and buying it. If viewers recall the ad but not the product name, humour may not boost sales.",
+    "answerLogic": "Option E undercuts the assumption by showing that even though humorous commercials are remembered, consumers often fail to remember the product being advertised. Therefore recall of the ad does not necessarily equate to advertising effectiveness.",
+    "wrongChoices": {
+      "A": "Including people unlikely to buy the product does not address the link between recall and sales for the targeted audience.",
+      "B": "Declining popularity of humorous programming does not directly relate to the effectiveness of humorous commercials.",
+      "C": "Enjoyment of serious commercials does not undermine the claim about recall.",
+      "D": "Some products being unsuitable for humour does not refute the general claim about humour’s effectiveness."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "advertising_effectiveness"]
+  },
+  {
+    "id": "ch05-q009",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 9,
+    "type": "logic_based_reading",
+    "sourcePage": "page_075",
+    "imagePath": "extracted_images/images/page_075.jpg",
+    "prompt": "In the last twenty years, the average playing time of a major-league baseball game has increased from 2 hours and 40 minutes to 3 hours and 15 minutes, causing complaints from many fans. To combat this problem, baseball officials must crack down on the use of delaying tactics by the teams, such as conferences between players and coaches.",
+    "questionStem": "Which of the following, if true, would cast the most doubt on the effectiveness of the proposal suggested above?",
+    "choices": {
+      "A": "Despite the complaints about the increased length of the games, attendance at baseball games has increased steadily in the last twenty years.",
+      "B": "Players and coaches are likely to resent any attempt by baseball officials to speed up the pace of the games.",
+      "C": "Some fans enjoy the leisurely pace of baseball games because it provides an opportunity to consider and discuss the strategy underlying the play.",
+      "D": "If conferences between players and coaches are forbidden, teams will use other delaying tactics instead.",
+      "E": "Most of the increased length of baseball games may be attributed to expanded time for television commercials between innings of the games."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["Most of the increased length of baseball games may be attributed to expanded time for television commercials between innings of the games."],
+    "argumentMap": {
+      "premise": "Games have become longer, and fans complain; officials propose reducing conferences between players and coaches to shorten games.",
+      "conclusion": "Cracking down on conferences will significantly reduce game length.",
+      "assumption": "Conferences are the primary cause of longer games.",
+      "logicalGap": "Fails to consider other major contributors to increased game length, such as television commercials.",
+      "structure": "Proposed solution based on an untested causal assumption."
+    },
+    "clueKeywords": [
+      {"keyword": "delaying tactics", "meaning": "Actions like conferences that pause play", "whyImportant": "Target of the proposed crackdown."},
+      {"keyword": "expanded time for television commercials", "meaning": "Longer breaks for commercials", "whyImportant": "Alternative explanation for the increase in game length."}
+    ],
+    "logicalReasoning": "If the increase in game length is mainly due to extended commercial breaks, reducing conferences would not significantly shorten games. This undermines the effectiveness of the proposal.",
+    "answerLogic": "Option E identifies expanded television commercial time as the major cause of longer games. Eliminating conferences would not address this factor, casting doubt on the proposal’s effectiveness.",
+    "wrongChoices": {
+      "A": "Increased attendance does not address whether cracking down on conferences will reduce game length.",
+      "B": "Resentment from players and coaches does not show the proposal would be ineffective.",
+      "C": "Some fans enjoying slow games does not affect the causal reasoning about delays.",
+      "D": "Using other delaying tactics suggests the need for broader enforcement but does not challenge the premise that conferences add time; E provides a more complete alternative cause."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "policy_evaluation"]
+  },
+  {
+    "id": "ch05-q010",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 10,
+    "type": "logic_based_reading",
+    "sourcePage": "page_075",
+    "imagePath": "extracted_images/images/page_075.jpg",
+    "prompt": "A study published by the Department of Education shows that children in the central cities lag far behind the students in the suburbs and the rural areas in reading skills. The report blames this differential on the overcrowding of classrooms in the city schools. I maintain, however, that the real reason that city children are poorer readers than non-city children is that they do not get enough fresh air and sunshine.",
+    "questionStem": "Which of the following does not strengthen the author’s point?",
+    "choices": {
+      "A": "Medical research shows a correlation between air pollution and learning disabilities.",
+      "B": "An expert report demonstrating that there is no relationship between the number of students in a classroom and the student’s ability to read.",
+      "C": "A notice released by the Department of Education retracting that part of their report that mentions overcrowding as the reason for the differential.",
+      "D": "The results of a federal program which indicate that city students show dramatic improvements in reading skills when they spend the summer in the country.",
+      "E": "A proposal by the federal government to fund emergency programs to hire more teachers for central city schools in an attempt to reduce overcrowding in the classrooms."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["A proposal by the federal government to fund emergency programs to hire more teachers for central city schools in an attempt to reduce overcrowding in the classrooms."],
+    "argumentMap": {
+      "premise": "City students have lower reading skills than suburban and rural students; the official report blames overcrowded classrooms.",
+      "conclusion": "The real cause is lack of fresh air and sunshine rather than overcrowding.",
+      "assumption": "Fresh air and sunshine significantly impact reading abilities and are more important than classroom size.",
+      "logicalGap": "Assumes a causal relationship between outdoor exposure and reading skills without evidence.",
+      "structure": "Counterclaim proposing an alternative cause."
+    },
+    "clueKeywords": [
+      {"keyword": "overcrowding", "meaning": "Large numbers of students per classroom", "whyImportant": "Original explanation that the author disputes."},
+      {"keyword": "fresh air and sunshine", "meaning": "Outdoor exposure and natural light", "whyImportant": "The author’s proposed cause for reading deficiencies."}
+    ],
+    "logicalReasoning": "To strengthen the author’s claim, evidence should either weaken the overcrowding explanation or suggest that outdoor exposure improves reading. Option E—an attempt to hire more teachers to reduce overcrowding—addresses the original hypothesis rather than supporting the author’s alternate explanation, so it fails to strengthen his point.",
+    "answerLogic": "A federal proposal to reduce overcrowding does not support the assertion that lack of fresh air and sunshine is the true cause of poor reading skills, so it does not strengthen the author’s argument.",
+    "wrongChoices": {
+      "A": "Linking air pollution to learning disabilities implies environmental factors impact learning, supporting the author’s general idea.",
+      "B": "Showing no relationship between class size and reading ability undermines the overcrowding explanation, indirectly supporting the author’s alternative cause.",
+      "C": "A retraction of the overcrowding explanation removes support for the rival hypothesis.",
+      "D": "Evidence that children’s reading improves when they spend time in the country supports the fresh air and sunshine hypothesis."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "counter_causation"]
+  },
+  {
+    "id": "ch05-q011",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 11,
+    "type": "logic_based_reading",
+    "sourcePage": "page_075",
+    "imagePath": "extracted_images/images/page_075.jpg",
+    "prompt": "Officials of the State Industrial Safety Board notified the management of A-1 Ironworks that several employees of the plant had complained about discomfort experienced as a result of the high levels of noise of the refractory operations. A-1’s management responded by pointing out that the complaints came from the newest employees at the plant and that the more experienced workers had not complained of factory noise to be excessive. Based on this finding, management concluded that the noise was not at an uncomfortable level and decided not to take any remedial action.",
+    "questionStem": "Which of the following, if true, indicates a flaw in A-1’s decision not to take remedial action at the plant?",
+    "choices": {
+      "A": "Because A-1 is located in an industrial park, no residences are located close enough to the plant to be affected by the noise.",
+      "B": "The noise level at the plant varies with activity and is highest when the greatest number of employees is on duty.",
+      "C": "The experienced employees do not feel discomfort because of significant hearing loss and therefore do not recognise noise level.",
+      "D": "Issuing protective earplugs to employees would not significantly increase the cost to A-1 of doing business.",
+      "E": "The State Industrial Safety Board has no independent authority to enforce a recommendation regarding safety procedures."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["The experienced employees do not feel discomfort because of significant hearing loss and therefore do not recognise noise level."],
+    "argumentMap": {
+      "premise": "Complaints about noise came only from new employees; seasoned employees have not complained.",
+      "conclusion": "The noise is not at an uncomfortable level; no remedial action is required.",
+      "assumption": "Lack of complaints from experienced workers means they do not find the noise uncomfortable.",
+      "logicalGap": "Ignores the possibility that experienced workers’ lack of complaints is due to hearing loss rather than comfortable noise levels.",
+      "structure": "Inference from absence of complaints to absence of a problem."
+    },
+    "clueKeywords": [
+      {"keyword": "newest employees", "meaning": "Workers who have not yet acclimated to the noise", "whyImportant": "They are the ones reporting discomfort."},
+      {"keyword": "hearing loss", "meaning": "Reduced ability to hear loud noises", "whyImportant": "Explains why experienced workers might not complain even if noise levels are harmful."}
+    ],
+    "logicalReasoning": "If experienced employees no longer feel discomfort because they have suffered hearing loss, their silence does not indicate that noise levels are safe. This undermines management’s decision not to address the problem.",
+    "answerLogic": "Option C reveals that experienced workers’ failure to complain could be due to hearing damage, so the absence of complaints is not evidence that noise levels are safe, highlighting a flaw in the argument.",
+    "wrongChoices": {
+      "A": "Proximity to residences does not relate to workers’ discomfort.",
+      "B": "Variability in noise levels does not directly challenge the inference from the absence of complaints.",
+      "D": "The cost of earplugs is a practical consideration but does not identify a flaw in the logic of the conclusion.",
+      "E": "The authority of the Safety Board does not affect the validity of management’s inference."
+    },
+    "finalAnswer": "C",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "logical_flaw"]
+  },
+  {
+    "id": "ch05-q012",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 12,
+    "type": "logic_based_reading",
+    "sourcePage": "page_075",
+    "imagePath": "extracted_images/images/page_075.jpg",
+    "prompt": "There are more lawyers per capita in the United States than in any other country in the world. The best possible explanation is that our legal system is more complicated than the legal systems of many other countries, and we are accordingly in greater need of professional help in dealing with it.",
+    "questionStem": "All of the following additional facts, if true, weaken the conclusion of the argument above except:",
+    "choices": {
+      "A": "Great Britain has a much simpler legal system but almost as many lawyers per capita as the U.S.",
+      "B": "The law is a very lucrative profession and is accordingly attractive to many people.",
+      "C": "France has a more complicated legal system than the U.S. but fewer lawyers per capita than the U.S.",
+      "D": "The number of lawyers in the United States, both in absolute terms and as a percentage of the population, has increased steadily over the past twenty years.",
+      "E": "Americans are by nature litigious, so that many more lawsuits per capita are brought against individuals in the U.S. than in any other country in the world."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["The number of lawyers in the United States, both in absolute terms and as a percentage of the population, has increased steadily over the past twenty years."],
+    "argumentMap": {
+      "premise": "The United States has more lawyers per capita than any other country.",
+      "conclusion": "This is best explained by the greater complexity of the U.S. legal system.",
+      "assumption": "The complexity of a legal system directly determines how many lawyers are needed.",
+      "logicalGap": "Does not consider other factors that may influence the number of lawyers, such as culture or economics.",
+      "structure": "Causal hypothesis based on correlation."
+    },
+    "clueKeywords": [
+      {"keyword": "lawyers per capita", "meaning": "Number of lawyers per person", "whyImportant": "The data point being explained."},
+      {"keyword": "complex legal system", "meaning": "Highly intricate laws and regulations", "whyImportant": "Proposed cause of high lawyer numbers."}
+    ],
+    "logicalReasoning": "Most of the options provide counterexamples where legal complexity does not align with lawyer density or suggest alternative reasons for the prevalence of lawyers. Option D simply notes a trend in the number of lawyers without addressing complexity and therefore does not weaken the conclusion.",
+    "answerLogic": "The steady increase in the number of lawyers does not speak to whether legal complexity is the cause of the high lawyer-to-population ratio; thus it does not weaken the argument.",
+    "wrongChoices": {
+      "A": "Great Britain’s similar lawyer density despite a simpler system weakens the legal complexity explanation.",
+      "B": "Attractiveness of law as a career suggests economic motives, undermining the complexity explanation.",
+      "C": "France’s complex system but fewer lawyers challenges the proposed correlation.",
+      "E": "Litigiousness offers a cultural explanation for more lawyers, weakening the complexity hypothesis."
+    },
+    "finalAnswer": "D",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["additional_facts", "correlation_causation"]
+  },
+  {
+    "id": "ch05-q013",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 13,
+    "type": "logic_based_reading",
+    "sourcePage": "page_076",
+    "imagePath": "extracted_images/images/page_076.jpg",
+    "prompt": "The new accountant we hired to audit our books came highly recommended, but there is reason to believe that she did not check out the figures accurately. The totals she came up with were significantly different from those arrived at by our own accountant, who has been working for the company for ten years.",
+    "questionStem": "The executive’s reasoning relies on which of the following assumptions?",
+    "choices": {
+      "A": "The methods the new accountant uses to calculate the totals differ significantly from those used by the old accountant.",
+      "B": "The miscalculation by the new accountant is not an isolated, one-time incident, but rather something that is likely to recur in the future.",
+      "C": "It would be possible to retrain the new accountant so that she would calculate the totals the same way the old accountant does and hence arrive at similar results.",
+      "D": "A calculation by the old accountant is highly unlikely to be less accurate than a calculation by the new accountant.",
+      "E": "The accuracy of the new accountant’s calculations does not depend on the number of records she reviews at one time."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["A calculation by the old accountant is highly unlikely to be less accurate than a calculation by the new accountant."],
+    "argumentMap": {
+      "premise": "The new accountant’s totals differ significantly from those of the long-time in-house accountant.",
+      "conclusion": "The new accountant did not check the figures accurately.",
+      "assumption": "The long-time accountant’s figures are accurate and more trustworthy than the new accountant’s.",
+      "logicalGap": "Assumes without justification that the veteran accountant’s calculations are correct.",
+      "structure": "Argument from difference in results to inference of inaccuracy."
+    },
+    "clueKeywords": [
+      {"keyword": "highly recommended", "meaning": "Endorsed by others", "whyImportant": "Establishes initial credibility of the new accountant."},
+      {"keyword": "significantly different totals", "meaning": "Numbers do not match", "whyImportant": "Basis for suspecting error."},
+      {"keyword": "ten years", "meaning": "Length of service of old accountant", "whyImportant": "Used to imply reliability."}
+    ],
+    "logicalReasoning": "The argument assumes that the long-time accountant’s calculations are accurate simply because of tenure. To justify criticising the new accountant, one must assume that the old accountant is unlikely to be wrong.",
+    "answerLogic": "Option D captures the underlying assumption that the veteran accountant’s calculations are highly unlikely to be less accurate than those of the new accountant; without this assumption the conclusion would not follow.",
+    "wrongChoices": {
+      "A": "Differences in methods could explain differing totals without implying inaccuracy.",
+      "B": "The reasoning does not rely on whether the error will recur.",
+      "C": "Retraining is not part of the argument.",
+      "E": "The number of records reviewed is not discussed."
+    },
+    "finalAnswer": "D",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "comparative_accuracy"]
+  },
+  {
+    "id": "ch05-q014",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 14,
+    "type": "logic_based_reading",
+    "sourcePage": "page_076",
+    "imagePath": "extracted_images/images/page_076.jpg",
+    "prompt": "The new Spanish film, ‘The Other Side of the Mirror,’ the psychologically probing story of a pair of disturbed lovers, is clearly the best foreign film of the year, since its box office receipts show that even more people are seeing it than have seen ‘Double Fugue,’ the highly acclaimed U.S. film on a similar theme.",
+    "questionStem": "The argument above is based on which of the following assumptions?",
+    "choices": {
+      "A": "Double Fugue is the best U.S. film of the year.",
+      "B": "Foreign films should be judged by standards different from those used for U.S. films.",
+      "C": "Foreign films should be judged by the same standards used for U.S. films.",
+      "D": "Psychologically probing stories make the best films.",
+      "E": "The quality of a film can be measured by the number of people who go to see it."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["The quality of a film can be measured by the number of people who go to see it."],
+    "argumentMap": {
+      "premise": "The Spanish film has higher box office receipts than the U.S. film.",
+      "conclusion": "The Spanish film is the best foreign film of the year.",
+      "assumption": "Box office revenue reflects film quality.",
+      "logicalGap": "Equates popularity with quality without justification.",
+      "structure": "Argument from popularity to evaluation."
+    },
+    "clueKeywords": [
+      {"keyword": "box office receipts", "meaning": "Number of tickets sold", "whyImportant": "Metric used to infer quality."},
+      {"keyword": "best foreign film", "meaning": "Qualitative judgment", "whyImportant": "Conclusion reached from quantitative data."}
+    ],
+    "logicalReasoning": "The argument relies on the assumption that more people seeing a film indicates higher quality. Without this assumption, box office receipts cannot determine which film is better.",
+    "answerLogic": "Option E states the necessary assumption that film quality is measured by attendance figures. This connects the premise to the conclusion.",
+    "wrongChoices": {
+      "A": "Whether Double Fugue is the best U.S. film is irrelevant to the argument.",
+      "B": "No comparison of standards is made.",
+      "C": "The argument does not discuss standards for judging foreign versus domestic films.",
+      "D": "The genre is not the basis for the argument’s conclusion."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "popularity_vs_quality"]
+  },
+  {
+    "id": "ch05-q015",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 15,
+    "type": "logic_based_reading",
+    "sourcePage": "page_076",
+    "imagePath": "extracted_images/images/page_076.jpg",
+    "prompt": "In an extensive study of the reading habits of a sample of magazine subscribers, media researchers found that an average of between four and five people actually read each copy of the most popular weekly news magazine. On that basis, the researchers assumed that the 12,000 copies of Poets and Poetry that are sold each month are actually read by 48,000 to 60,000 people.",
+    "questionStem": "The estimated readership of Poets and Poetry mentioned in the conclusion of the argument above assumes that:",
+    "choices": {
+      "A": "Individual magazine readers generally enjoy more than one type of magazine.",
+      "B": "Not all of the readers of Poets and Poetry are also subscribers to the magazine.",
+      "C": "The ratio of readers to copies of Poets and Poetry is the same as that of the weekly news magazine.",
+      "D": "The number of readers of the weekly news magazine is similar to the number of readers of Poets and Poetry.",
+      "E": "Most readers enjoy sharing copies of their favourite magazines with friends and family members."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["The ratio of readers to copies of Poets and Poetry is the same as that of the weekly news magazine."],
+    "argumentMap": {
+      "premise": "Four to five people read each copy of the popular weekly news magazine.",
+      "conclusion": "12,000 copies of Poets and Poetry are read by 48,000 to 60,000 people.",
+      "assumption": "The same readers-per-copy ratio applies to Poets and Poetry.",
+      "logicalGap": "Applies statistics from one magazine to another without evidence that reading patterns are comparable.",
+      "structure": "Extrapolation from one sample to another."
+    },
+    "clueKeywords": [
+      {"keyword": "four to five people", "meaning": "Average readers per copy of the news magazine", "whyImportant": "Base ratio used for calculation."},
+      {"keyword": "12,000 copies", "meaning": "Number of Poets and Poetry copies sold", "whyImportant": "Value multiplied by the ratio to estimate readership."}
+    ],
+    "logicalReasoning": "The researchers assume that readers of Poets and Poetry share copies to the same extent as readers of the weekly news magazine. Without this assumption the calculation has no basis.",
+    "answerLogic": "Option C identifies the necessary assumption that the ratio of readers to copies for Poets and Poetry matches that of the news magazine. Only with that assumption does the estimated readership follow.",
+    "wrongChoices": {
+      "A": "Varied reading tastes do not directly influence the ratio of readers per copy.",
+      "B": "Subscribers versus purchasers is unrelated to the ratio used in the calculation.",
+      "D": "Equal numbers of readers are not relevant to the ratio per copy.",
+      "E": "Sharing magazines in general does not specify that the ratio is the same for both magazines."
+    },
+    "finalAnswer": "C",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "statistical_generalization"]
+  },
+  {
+    "id": "ch05-q016",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 16,
+    "type": "logic_based_reading",
+    "sourcePage": "page_076",
+    "imagePath": "extracted_images/images/page_076.jpg",
+    "prompt": "Government spending on education does not really benefit students. During the 1990s and 2000s, spending by the federal government on education programs rose by over 150 percent. During the same period, students’ scores on standardized tests dropped nearly every year.",
+    "questionStem": "The argument’s conclusion logically depends on which of the following assumptions?",
+    "choices": {
+      "A": "The number of college graduates who choose teaching as a profession progressively declined during the 1990s and 2000s.",
+      "B": "During the 1990s and 2000s, progressively more students were able to take advantage of federally funded educational programs.",
+      "C": "The proportion of the United States population classified as students did not increase appreciably during the 1990s and 2000s.",
+      "D": "The money spent by the federal government on educational programs during the 1990s and 2000s could have been better spent on health and welfare programs.",
+      "E": "The scores students achieve on standardized examinations are a good measure of the effectiveness of educational programs."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["The scores students achieve on standardized examinations are a good measure of the effectiveness of educational programs."],
+    "argumentMap": {
+      "premise": "Government spending on education increased by over 150 percent, while test scores declined nearly every year.",
+      "conclusion": "Government spending on education does not benefit students.",
+      "assumption": "Test scores are an accurate measure of educational benefits.",
+      "logicalGap": "Equates falling test scores with lack of educational benefits without justifying the validity of the test scores as a metric.",
+      "structure": "Argument from inverse correlation."
+    },
+    "clueKeywords": [
+      {"keyword": "over 150 percent", "meaning": "Large increase in spending", "whyImportant": "Premise showing the scale of investment."},
+      {"keyword": "test scores dropped", "meaning": "Decline in standardized examination results", "whyImportant": "Used as evidence that spending was ineffective."},
+      {"keyword": "measure of effectiveness", "meaning": "Criteria for assessing educational benefits", "whyImportant": "Necessary link between test scores and overall benefit."}
+    ],
+    "logicalReasoning": "To conclude that increased spending does not benefit students, the argument must assume that standardized test scores reliably reflect the benefits of educational programs. Otherwise, the decline could be due to factors unrelated to spending.",
+    "answerLogic": "Option E states the necessary assumption that test scores measure program effectiveness; without this assumption the correlation between spending and test scores does not demonstrate a lack of benefit.",
+    "wrongChoices": {
+      "A": "Trends in teacher recruitment do not connect spending to test scores.",
+      "B": "The number of students using programs is irrelevant to the relationship between spending and scores.",
+      "C": "Population growth among students is not discussed.",
+      "D": "Whether funds could be better spent does not affect the conclusion about educational benefits."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "measurement_validity"]
+  },
+  {
+    "id": "ch05-q017",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 17,
+    "type": "logic_based_reading",
+    "sourcePage": "page_077",
+    "imagePath": "extracted_images/images/page_077.jpg",
+    "prompt": "‘Channel One’ is a 12-minute school news show geared toward senior high school students. The show includes 2 minutes of commercials. The production company behind ‘Channel One’ offers high schools US$50,000 worth of television equipment to facilitate airing the program. Many parents and teachers oppose the use of commercial television in schools. They argue that these advertisements are tantamount to indoctrination. But the production company maintains that students are already familiar with television commercials and know how to distinguish programming from advertising.",
+    "questionStem": "The argument of the production company assumes that:",
+    "choices": {
+      "A": "The effects of an advertisement viewed in a classroom would be similar to those of the same advertisement viewed at home.",
+      "B": "Many educators would be willing to allow the indoctrination of students in exchange for new equipment for their schools.",
+      "C": "Television advertising is a more effective way of promoting a product to high school students than print advertising.",
+      "D": "High school students are sufficiently interested in world affairs to learn from a television news program.",
+      "E": "A television news program produced especially for high school students is an effective teaching tool."
+    },
+    "correctAnswerKeys": ["A"],
+    "correctAnswerTexts": ["The effects of an advertisement viewed in a classroom would be similar to those of the same advertisement viewed at home."],
+    "argumentMap": {
+      "premise": "Students already see commercials at home and know how to distinguish programming from advertising.",
+      "conclusion": "Therefore the commercials in Channel One are not indoctrination.",
+      "assumption": "Advertisements have the same influence regardless of viewing context (home versus classroom).",
+      "logicalGap": "Assumes the classroom context does not make advertisements more influential on students.",
+      "structure": "Analogy between home and school viewing experiences."
+    },
+    "clueKeywords": [
+      {"keyword": "know how to distinguish", "meaning": "Ability to tell commercials apart from programming", "whyImportant": "Central to the production company’s rebuttal of indoctrination claims."},
+      {"keyword": "viewed in a classroom", "meaning": "Advertisements shown in school", "whyImportant": "Potentially different context than home viewing."}
+    ],
+    "logicalReasoning": "For the production company’s argument to hold, the effect of commercials in the classroom must be no greater than at home; otherwise, the risk of indoctrination might still exist despite students’ familiarity with advertisements.",
+    "answerLogic": "Option A articulates the necessary assumption that commercials have similar effects whether viewed in school or at home. Without this assumption, the claim that commercials are not indoctrinating fails.",
+    "wrongChoices": {
+      "B": "The argument does not concern educators’ willingness to trade equipment for indoctrination.",
+      "C": "Comparing media types is irrelevant to the issue of context.",
+      "D": "Students’ interest in world affairs is not at issue.",
+      "E": "Effectiveness of the news program as a teaching tool does not address the commercial impact."
+    },
+    "finalAnswer": "A",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "advertising_context"]
+  },
+  {
+    "id": "ch05-q018",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 18,
+    "type": "logic_based_reading",
+    "sourcePage": "page_077",
+    "imagePath": "extracted_images/images/page_077.jpg",
+    "prompt": "Within the advertising community, debate has long raged over the effectiveness of humorous commercials. Those who advocate using humor to sell products like to point to survey results, which show that ordinary consumers are almost twice as likely to recall a humorous commercial as they are to recall a serious commercial.",
+    "questionStem": "In their argument, the advocates of humor in advertising assume that:",
+    "choices": {
+      "A": "The ordinary consumer has a sense of humor similar to that of most advertising copywriters.",
+      "B": "Humorous commercials can be effective even when shown during serious television dramas.",
+      "C": "The effectiveness of humorous advertising is not affected by the nature of the product being sold.",
+      "D": "A commercial that is recalled by consumers is a more effective selling vehicle than one that is not recalled.",
+      "E": "Most television viewers enjoy watching commercials as much as they enjoy the programs themselves."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["A commercial that is recalled by consumers is a more effective selling vehicle than one that is not recalled."],
+    "argumentMap": {
+      "premise": "Consumers are almost twice as likely to recall humorous commercials as serious ones.",
+      "conclusion": "Therefore humorous commercials are more effective at selling products.",
+      "assumption": "Recall of an advertisement translates into greater sales effectiveness.",
+      "logicalGap": "Equates recall with sales impact without justification.",
+      "structure": "Argument linking memorability to effectiveness."
+    },
+    "clueKeywords": [
+      {"keyword": "recall", "meaning": "Remembering the commercial", "whyImportant": "Foundation for the advocates’ claim."},
+      {"keyword": "effective selling vehicle", "meaning": "Ability of the commercial to promote product sales", "whyImportant": "Conclusion drawn from recall statistics."}
+    ],
+    "logicalReasoning": "The advocates infer that because humorous ads are more memorable, they must also be better at selling. The assumption is that memory of the ad directly correlates with product purchase.",
+    "answerLogic": "Option D states the necessary assumption that a recalled commercial is a more effective selling tool; this connects the premise (recall) to the conclusion (effectiveness).",
+    "wrongChoices": {
+      "A": "Similarity of humour between consumers and copywriters is not addressed.",
+      "B": "The context of other programming is not at issue.",
+      "C": "Effectiveness might vary by product but the advocates do not assume it doesn’t.",
+      "E": "Viewer enjoyment does not equate to sales effectiveness."
+    },
+    "finalAnswer": "D",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "advertising_effectiveness"]
+  },
+  {
+    "id": "ch05-q019",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 19,
+    "type": "logic_based_reading",
+    "sourcePage": "page_077",
+    "imagePath": "extracted_images/images/page_077.jpg",
+    "prompt": "A report suggests that corporations that provide day care to the children of their employees have significantly higher morale among personnel than corporations that do not provide day care. A car manufacturer is anxious to increase worker productivity and is instituting day care for the children of its employees.",
+    "questionStem": "Which of the following is an assumption of the car manufacturer?",
+    "choices": {
+      "A": "Higher productivity is what drives any company’s decision-making process.",
+      "B": "Improved morale will lead to higher productivity.",
+      "C": "The employees have no other day care options for their children.",
+      "D": "Corporate intervention in the lives of employees is a complicated issue with few simple truths.",
+      "E": "Morale can be affected by working conditions, benefits, salary increases and management techniques."
+    },
+    "correctAnswerKeys": ["B"],
+    "correctAnswerTexts": ["Improved morale will lead to higher productivity."],
+    "argumentMap": {
+      "premise": "Companies providing day care have higher morale among personnel.",
+      "conclusion": "Instituting day care will increase productivity at the car manufacturer.",
+      "assumption": "Higher morale leads to higher productivity.",
+      "logicalGap": "Links morale to productivity without evidence.",
+      "structure": "Causal inference applying a correlation."
+    },
+    "clueKeywords": [
+      {"keyword": "higher morale", "meaning": "Greater satisfaction and motivation among employees", "whyImportant": "Observed benefit at companies with day care."},
+      {"keyword": "increase worker productivity", "meaning": "Improve output and efficiency", "whyImportant": "Goal of the car manufacturer."}
+    ],
+    "logicalReasoning": "The manufacturer assumes that higher morale achieved by offering day care will translate into increased productivity. Without this assumption, there is no reason to expect day care to boost output.",
+    "answerLogic": "Option B articulates the necessary assumption that improved morale leads to higher productivity, connecting the observed correlation to the desired outcome.",
+    "wrongChoices": {
+      "A": "General statements about company motives are irrelevant.",
+      "C": "Alternative day care options do not affect the assumption about morale and productivity.",
+      "D": "Commentary on corporate intervention is not central to the argument.",
+      "E": "Identifying other factors affecting morale does not establish the link between morale and productivity."
+    },
+    "finalAnswer": "B",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "morale_productivity"]
+  },
+  {
+    "id": "ch05-q020",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 20,
+    "type": "logic_based_reading",
+    "sourcePage": "page_077",
+    "imagePath": "extracted_images/images/page_077.jpg",
+    "prompt": "In response to mounting public concern, an airplane manufacturer implemented a program with the well-publicised goal of reducing by half the total yearly amount of hazardous waste generated by its passenger-jet division. When the program began in 2014, the division’s hazardous-waste output was 90 pounds per production worker. This year it was 40 pounds per production worker. Clearly, therefore, the total amount of hazardous waste generated by the passenger-jet division has decreased, and the manufacturer’s program has worked.",
+    "questionStem": "Which of the following is an assumption on which the argument depends?",
+    "choices": {
+      "A": "The amount of nonhazardous waste generated each year by the passenger-jet division has not increased significantly since 2014.",
+      "B": "At least as many passenger jets were produced by the division last year as had been produced in 2014.",
+      "C": "Since 2014, other divisions in the company have achieved reductions in hazardous-waste output that are at least equal to that achieved in the passenger-jet division.",
+      "D": "The average number of weekly hours per production worker in the passenger-jet division was not significantly greater last year than it was in 2014.",
+      "E": "The number of production workers assigned to the passenger-jet division was not significantly less last year than it was in 2014."
+    },
+    "correctAnswerKeys": ["E"],
+    "correctAnswerTexts": ["The number of production workers assigned to the passenger-jet division was not significantly less last year than it was in 2014."],
+    "argumentMap": {
+      "premise": "Hazardous waste per worker decreased from 90 to 40 pounds from 2014 to the present.",
+      "conclusion": "Therefore total hazardous-waste output decreased by half and the program worked.",
+      "assumption": "The number of production workers has not increased significantly (or decreased significantly), so per-worker reduction reflects total reduction.",
+      "logicalGap": "Assumes per-worker figures translate directly into total figures without accounting for workforce size changes.",
+      "structure": "Argument from per-capita statistics to total outcome."
+    },
+    "clueKeywords": [
+      {"keyword": "90 pounds per worker", "meaning": "Hazardous waste output per worker in 2014", "whyImportant": "Baseline for comparison."},
+      {"keyword": "40 pounds per worker", "meaning": "Hazardous waste output per worker now", "whyImportant": "Indicates reduction per worker."},
+      {"keyword": "number of production workers", "meaning": "Size of the workforce", "whyImportant": "Determines whether per-worker figures reflect total output."}
+    ],
+    "logicalReasoning": "To infer that total hazardous waste decreased, the argument must assume that the workforce size did not change significantly; otherwise, a decrease per worker could be offset by having more workers overall.",
+    "answerLogic": "Option E states that the number of production workers was not significantly less last year than in 2014, ensuring that lower per-worker waste means lower total waste. Without this assumption, total waste could have increased.",
+    "wrongChoices": {
+      "A": "Nonhazardous waste does not affect the measure of hazardous waste.",
+      "B": "Production volume does not directly determine waste per worker.",
+      "C": "Performance of other divisions is irrelevant to this argument.",
+      "D": "Hours worked per worker do not determine total hazardous waste if per-worker waste is given."
+    },
+    "finalAnswer": "E",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["assumptions", "per_capita"]
+  },
+  {
+    "id": "ch05-q021",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 21,
+    "type": "logic_based_reading",
+    "sourcePage": "page_078",
+    "imagePath": "extracted_images/images/page_078.jpg",
+    "prompt": "Seven out of ten municipal employees choose Green Arrow Underwriters as their health insurance provider.",
+    "questionStem": "From the information provided in this advertisement, what further conclusion may be drawn?",
+    "choices": {
+      "A": "Green Arrow Underwriters has the cheapest premium rates of any other insurance company available.",
+      "B": "All other health insurance providers, excluding Green Arrow Underwriters, provide services to less than 50 percent of the municipal employees.",
+      "C": "Municipal employees need less health insurance coverage than employees in other industries.",
+      "D": "Green Arrow Underwriters provides more valuable services and better customer assistance than any of its competitors.",
+      "E": "Except for Green Arrow Underwriters, the health insurance industry is suffering a decline in the rate of obtaining new customers."
+    },
+    "correctAnswerKeys": ["B"],
+    "correctAnswerTexts": ["All other health insurance providers, excluding Green Arrow Underwriters, provide services to less than 50 percent of the municipal employees."],
+    "argumentMap": {
+      "premise": "Seven out of ten municipal employees choose Green Arrow Underwriters.",
+      "conclusion": "Therefore the remaining insurance providers each serve less than half of municipal employees.",
+      "assumption": "The ten employees represent the whole population and employees choose one insurer.",
+      "logicalGap": "Translates a single statistic into a statement about all competitors without additional data.",
+      "structure": "Basic proportion inference."
+    },
+    "clueKeywords": [
+      {"keyword": "seven out of ten", "meaning": "Seventy percent", "whyImportant": "Provides the basis for concluding that other providers cover less than half."}
+    ],
+    "logicalReasoning": "If Green Arrow covers 70 percent of employees, the remaining 30 percent must be split among all other providers; thus each of those providers covers less than 50 percent. That is the only safe inference from the advertisement.",
+    "answerLogic": "Option B restates the valid inference that no single competitor can serve more than 50 percent of municipal employees because Green Arrow already covers 70 percent.",
+    "wrongChoices": {
+      "A": "No information is given about premium rates.",
+      "C": "The advertisement does not compare insurance needs across industries.",
+      "D": "Quality of service is not addressed.",
+      "E": "Trend data about customer acquisition is not provided."
+    },
+    "finalAnswer": "B",
+    "confidence": "medium",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["conclusions", "proportion"]
+  },
+  {
+    "id": "ch05-q022",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 22,
+    "type": "logic_based_reading",
+    "sourcePage": "page_078",
+    "imagePath": "extracted_images/images/page_078.jpg",
+    "prompt": "Medical schools should not allow their students to accept even minor gifts from pharmaceutical companies. When psychological researchers gave medical students small promotional gifts with a drug brand logo, the students’ favourable attitude toward the brand increased. This shows that such gifts can bias students toward certain brands. In their future careers as doctors, this could lead them to make prescription choices that are not in patients’ best interests.",
+    "questionStem": "Which of the following could most accurately express the main conclusion of the medical ethicist’s argument?",
+    "choices": {
+      "A": "No medical school should allow its students to accept even minor gifts from pharmaceutical companies.",
+      "B": "Even minor gifts from pharmaceutical companies bias medical students toward certain pharmaceutical brands.",
+      "C": "A bias toward certain pharmaceutical brands could lead doctors to make prescription choices that are not in patients’ best interests.",
+      "D": "Gifts from pharmaceutical companies to medical students inappropriately influence those students in their future careers as doctors.",
+      "E": "Research found that small promotional gifts with a drug brand logo increased medical students’ favourable attitude toward that brand."
+    },
+    "correctAnswerKeys": ["A"],
+    "correctAnswerTexts": ["No medical school should allow its students to accept even minor gifts from pharmaceutical companies."],
+    "argumentMap": {
+      "premise": "Gifts with drug logos increase medical students’ favourable attitudes toward those brands.",
+      "premise2": "Biased attitudes could lead doctors to make prescription choices not in patients’ best interests.",
+      "conclusion": "Therefore medical schools should prohibit students from accepting even minor gifts from pharmaceutical companies.",
+      "assumption": "It is ethically wrong for medical decisions to be influenced by promotional gifts.",
+      "logicalGap": "Moves from evidence about bias to a policy recommendation.",
+      "structure": "Argument concluding a normative policy from empirical observations."
+    },
+    "clueKeywords": [
+      {"keyword": "bias", "meaning": "Unjustified preference", "whyImportant": "Supports the concern about influence."},
+      {"keyword": "not in patients’ best interests", "meaning": "Potential harm", "whyImportant": "Ethical reason for the conclusion."}
+    ],
+    "logicalReasoning": "The argument states that gifts influence students and that such bias could lead to suboptimal prescriptions; thus the conclusion is that the gifts should be banned. Option A captures this normative conclusion.",
+    "answerLogic": "Option A restates the policy recommendation that no medical school should allow students to accept gifts, which is the main conclusion derived from the premises.",
+    "wrongChoices": {
+      "B": "This restates a premise rather than the overall conclusion.",
+      "C": "Describes a consequence but not the recommended action.",
+      "D": "Focuses on influence but does not propose the policy.",
+      "E": "Merely summarises the research finding."
+    },
+    "finalAnswer": "A",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["conclusions", "policy_recommendation"]
+  },
+  {
+    "id": "ch05-q023",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 23,
+    "type": "logic_based_reading",
+    "sourcePage": "page_078",
+    "imagePath": "extracted_images/images/page_078.jpg",
+    "prompt": "From 2001 to 2016, total United States consumption of cigarettes increased 3.4 percent, and total sales of chewing tobacco rose 18.0 percent. During the same period, total United States population increased 5.0 percent.",
+    "questionStem": "If the statements above are true, which of the following conclusions can be properly drawn?",
+    "choices": {
+      "A": "United States manufacturers of tobacco products had higher profits in 2016 than in 2001.",
+      "B": "Per capita consumption of cigarettes in the United States was lower in 2016 than in 2001.",
+      "C": "The proportion of nonsmokers in the United States population dropped slightly between 2001 and 2016.",
+      "D": "United States manufacturers of tobacco products realize a lower profit on cigarettes than on chewing tobacco.",
+      "E": "A large percentage of United States smokers switched from cigarettes to chewing tobacco between 2001 and 2016."
+    },
+    "correctAnswerKeys": ["B"],
+    "correctAnswerTexts": ["Per capita consumption of cigarettes in the United States was lower in 2016 than in 2001."],
+    "argumentMap": {
+      "premise": "Cigarette consumption increased 3.4 percent while population increased 5 percent over 15 years.",
+      "conclusion": "Therefore per capita cigarette consumption declined.",
+      "assumption": "Per capita consumption is the ratio of total consumption to total population.",
+      "logicalGap": "No major gaps; straightforward computation.",
+      "structure": "Quantitative inference."
+    },
+    "clueKeywords": [
+      {"keyword": "3.4 percent", "meaning": "Increase in cigarette consumption", "whyImportant": "Input for per capita comparison."},
+      {"keyword": "5.0 percent", "meaning": "Increase in population", "whyImportant": "Population growth exceeds consumption growth, implying per capita decline."}
+    ],
+    "logicalReasoning": "If total consumption grows more slowly than population, then per capita consumption must decline. This is the only valid inference from the given data.",
+    "answerLogic": "Option B correctly identifies that per capita cigarette consumption decreased because the population grew faster than consumption. None of the other conclusions necessarily follow from the provided statistics.",
+    "wrongChoices": {
+      "A": "Profits depend on many factors beyond volume.",
+      "C": "A decline in per capita cigarette consumption does not necessarily mean fewer nonsmokers.",
+      "D": "Relative profits are not addressed.",
+      "E": "No information is provided about switching behaviours."
+    },
+    "finalAnswer": "B",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["conclusions", "quantitative_reasoning"]
+  },
+  {
+    "id": "ch05-q024",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 24,
+    "type": "logic_based_reading",
+    "sourcePage": "page_079",
+    "imagePath": "extracted_images/images/page_079.jpg",
+    "prompt": "In a survey of job applicants, two-fifths admitted to being at least a little dishonest. However, the survey may underestimate the proportion of job applicants who are dishonest, because …",
+    "questionStem": "Which of the following best completes the passage above?",
+    "choices": {
+      "A": "Some dishonest people taking the survey might have claimed on the survey to be honest.",
+      "B": "Some generally honest people taking the survey might have claimed on the survey to be dishonest.",
+      "C": "Some people who claimed on the survey to be honest may be very dishonest.",
+      "D": "Some people who claimed on the survey to be dishonest may have been answering honestly.",
+      "E": "Some people who are not job applicants are probably at least a little dishonest."
+    },
+    "correctAnswerKeys": ["A"],
+    "correctAnswerTexts": ["Some dishonest people taking the survey might have claimed on the survey to be honest."],
+    "argumentMap": {
+      "premise": "Two-fifths of surveyed job applicants admitted to some dishonesty.",
+      "conclusion": "This fraction may underestimate the true proportion of dishonest applicants.",
+      "assumption": "Dishonest applicants might falsely report themselves as honest, while honest applicants would have no incentive to do the opposite.",
+      "logicalGap": "Infers underreporting due to misreporting by dishonest respondents.",
+      "structure": "Argument completion requiring recognition of potential bias."
+    },
+    "clueKeywords": [
+      {"keyword": "admitted to being dishonest", "meaning": "Openly acknowledged dishonesty", "whyImportant": "Baseline figure which might be an underestimate."},
+      {"keyword": "claimed to be honest", "meaning": "Reported themselves as honest", "whyImportant": "Possible misrepresentation by dishonest respondents."}
+    ],
+    "logicalReasoning": "If dishonest people are reluctant to admit dishonesty, some may claim they are honest, so the survey would undercount them. Option A explicitly states this possibility, making it the best completion.",
+    "answerLogic": "By suggesting that some dishonest respondents claimed honesty, option A explains how the survey could underestimate dishonesty, completing the argument logically.",
+    "wrongChoices": {
+      "B": "Honest people overstating their dishonesty would cause an overestimate, not an underestimate.",
+      "C": "This restates the possibility of dishonesty but does not explain underestimation.",
+      "D": "Acknowledging honesty among those who admit dishonesty does not alter the estimate.",
+      "E": "The behaviour of non-applicants is irrelevant to the survey results."
+    },
+    "finalAnswer": "A",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["argument_completion", "survey_bias"]
+  },
+  {
+    "id": "ch05-q025",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 25,
+    "type": "logic_based_reading",
+    "sourcePage": "page_079",
+    "imagePath": "extracted_images/images/page_079.jpg",
+    "prompt": "Observations of the Arctic reveal that the Arctic Ocean is covered by less ice each summer than the previous summer. If this warming trend continues, within 50 years the Arctic Ocean will be ice-free during the summer months. This occurrence would in itself have little or no effect on global sea levels, since the melting of ice floating in water does not affect sea level. However, serious consequences to sea levels would eventually result, because …",
+    "questionStem": "Which of the following most logically completes the passage?",
+    "choices": {
+      "A": "Large masses of floating sea ice would continue to form in the wintertime.",
+      "B": "Significant changes in Arctic sea temperatures would be accompanied by changes in sea temperatures in more temperate parts of the world.",
+      "C": "Such a warm Arctic Ocean would trigger the melting of massive land-based glaciers in the Arctic.",
+      "D": "An ice-free Arctic Ocean would support a very different ecosystem than it does presently.",
+      "E": "In the spring, melting sea ice would cause more icebergs to be created and to drift south into shipping routes."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["Such a warm Arctic Ocean would trigger the melting of massive land-based glaciers in the Arctic."],
+    "argumentMap": {
+      "premise": "Arctic sea ice is declining and may disappear in summer within 50 years.",
+      "premise2": "Melting floating ice does not raise sea level.",
+      "conclusion": "Serious consequences to sea level will eventually result from the warming trend.",
+      "assumption": "Warming will lead to melting of land-based ice, which does raise sea level.",
+      "logicalGap": "Requires a mechanism whereby loss of sea ice leads to melting of land ice.",
+      "structure": "Argument completion identifying the causal link."
+    },
+    "clueKeywords": [
+      {"keyword": "ice-free", "meaning": "No floating ice in summer", "whyImportant": "Sets up the condition for further effects."},
+      {"keyword": "land-based glaciers", "meaning": "Ice resting on land rather than floating", "whyImportant": "Melting these would raise sea levels."}
+    ],
+    "logicalReasoning": "The passage states that melting floating ice does not affect sea level but implies that serious sea-level rise will occur for another reason. The most logical completion points to melting of land-based glaciers triggered by the warming ocean.",
+    "answerLogic": "Option C completes the argument by explaining that a warm Arctic Ocean would melt nearby land-based glaciers, which would raise sea levels.",
+    "wrongChoices": {
+      "A": "Winter sea-ice formation does not cause sea-level rise.",
+      "B": "Temperature changes elsewhere do not necessarily raise sea levels.",
+      "D": "Ecosystem changes are irrelevant to sea-level rise.",
+      "E": "More icebergs drifting south does not significantly affect global sea levels."
+    },
+    "finalAnswer": "C",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["argument_completion", "causal_chain"]
+  },
+  {
+    "id": "ch05-q026",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 26,
+    "type": "logic_based_reading",
+    "sourcePage": "page_079",
+    "imagePath": "extracted_images/images/page_079.jpg",
+    "prompt": "NowNews, although still the most popular magazine covering cultural events in Kalopolis, has recently suffered a significant drop in advertising revenue because of falling circulation. Many readers have begun buying a competing magazine that, at 50 cents per copy, costs less than NowNews at $1.50 per copy. In order to boost circulation and thus increase advertising revenue, NowNews’s circulation manager is proposing to make it available at no charge, but this proposal has a serious drawback, since …",
+    "questionStem": "Which of the following best completes the argument above?",
+    "choices": {
+      "A": "Those Kalopolis residents with the greatest interest in cultural events are regular readers of both magazines.",
+      "B": "One reason NowNews’s circulation fell was that its competitor’s reporting of cultural events was superior.",
+      "C": "The newsstands and stores that currently sell NowNews will no longer carry it if it is being given away for free.",
+      "D": "At present, 10 percent of the total number of copies of each issue of NowNews are distributed free to students on college campuses in the Kalopolis area.",
+      "E": "NowNews’s competitor would begin to lose large amounts of money if it were forced to lower its cover price."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["The newsstands and stores that currently sell NowNews will no longer carry it if it is being given away for free."],
+    "argumentMap": {
+      "premise": "NowNews’s circulation and advertising revenue have dropped as readers switch to a cheaper competitor.",
+      "proposal": "Make NowNews free to boost circulation and thereby increase advertising revenue.",
+      "conclusion": "The proposal has a serious drawback.",
+      "assumption": "Circulation can be increased without harming distribution channels.",
+      "logicalGap": "Ignores the possibility that retailers will not carry a free magazine, which could offset circulation gains.",
+      "structure": "Argument completion pointing to practical consequences."
+    },
+    "clueKeywords": [
+      {"keyword": "falling circulation", "meaning": "Declining readership", "whyImportant": "Reason for drop in advertising revenue."},
+      {"keyword": "no charge", "meaning": "Free distribution", "whyImportant": "Proposed solution with potential side effects."}
+    ],
+    "logicalReasoning": "While making the magazine free could attract readers, it would undermine relationships with newsstands and stores that rely on sales revenue. If these outlets stop carrying the magazine, circulation might not increase as hoped.",
+    "answerLogic": "Option C identifies the drawback that distributors would not stock a free magazine, limiting access and undermining the circulation manager’s plan.",
+    "wrongChoices": {
+      "A": "Regular readership of both magazines does not address the consequences of free distribution.",
+      "B": "Superior reporting by the competitor is another reason for declining circulation but not the specific drawback of making the magazine free.",
+      "D": "Distributing some free copies does not indicate a problem with making all copies free.",
+      "E": "The competitor’s profitability does not bear on NowNews’s distribution strategy."
+    },
+    "finalAnswer": "C",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["argument_completion", "business_strategy"]
+  },
+  {
+    "id": "ch05-q027",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 27,
+    "type": "logic_based_reading",
+    "sourcePage": "page_079",
+    "imagePath": "extracted_images/images/page_079.jpg",
+    "prompt": "Manufacturers are now required to make all cigarette lighters child-resistant by equipping them with safety levers. But this change is unlikely to result in a significant reduction in the number of fires caused by children playing with lighters, because children given the opportunity can figure out how to work the safety levers and …",
+    "questionStem": "Which of the following, if true, most logically completes the argument below?",
+    "choices": {
+      "A": "The addition of the safety levers has made lighters more expensive than they were before the new requirement was instituted.",
+      "B": "Adults are more likely to leave child-resistant lighters than non-child-resistant lighters in places that are accessible to children.",
+      "C": "Many of the fires started by young children are quickly detected and extinguished by their parents.",
+      "D": "Unlike child-resistant lighters, lighters that are not child-resistant can be operated by children as young as two years old.",
+      "E": "Approximately 5,000 fires per year have been attributed to children playing with lighters before the safety levers were required."
+    },
+    "correctAnswerKeys": ["B"],
+    "correctAnswerTexts": ["Adults are more likely to leave child-resistant lighters than non-child-resistant lighters in places that are accessible to children."],
+    "argumentMap": {
+      "premise": "Child-resistant safety levers are now required on lighters.",
+      "conclusion": "This will not significantly reduce fires caused by children.",
+      "assumption": "Children will still be able to access and operate lighters, and adult behaviour might change in ways that offset the added safety.",
+      "logicalGap": "Needs a mechanism explaining why the requirement does not reduce fires despite making lighters harder to use.",
+      "structure": "Argument completion identifying an unintended consequence."
+    },
+    "clueKeywords": [
+      {"keyword": "child-resistant lighters", "meaning": "Lighters equipped with safety levers", "whyImportant": "New safety requirement."},
+      {"keyword": "accessible to children", "meaning": "Within reach of children", "whyImportant": "Accessibility influences the likelihood of fires."}
+    ],
+    "logicalReasoning": "If adults become complacent and leave child-resistant lighters in accessible places, children will still obtain and learn to use them, so fires may not decrease. This explains why the safety regulation might not achieve its goal.",
+    "answerLogic": "Option B shows that adults may be more careless with child-resistant lighters, making them more accessible to children, which offsets the safety benefits and leads to continued fires.",
+    "wrongChoices": {
+      "A": "Higher cost does not explain the continued occurrence of fires.",
+      "C": "Whether fires are detected quickly does not affect how often they occur.",
+      "D": "Stating an age difference does not explain why fires will not decrease.",
+      "E": "Historical fire statistics do not indicate future impact."
+    },
+    "finalAnswer": "B",
+    "confidence": "high",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["argument_completion", "unintended_consequences"]
+  },
+  {
+    "id": "ch05-q028",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 28,
+    "type": "logic_based_reading",
+    "sourcePage": "page_080",
+    "imagePath": "extracted_images/images/page_080.jpg",
+    "prompt": "Many environmentalists blame hunters alone for the steady decline in the deer population in Greenrock National Forest over the past ten years. I believe, however, that it is abundantly clear that black bears have also played an important role in this decline. In the past ten years, the forest’s protected black bear population has risen sharply and steadily, and examination of the stomach contents of black bears found dead in the forest during the deer hunting season showed that more than a few of them had recently fed on deer.",
+    "questionStem": "In the hunter’s argument above, the portion in boldface plays which of the following roles?",
+    "choices": {
+      "A": "It is the main conclusion of the argument.",
+      "B": "It is a finding that the argument seeks to explain.",
+      "C": "It is an explanation that the argument concludes is correct.",
+      "D": "It provides evidence in support of the main conclusion of the argument.",
+      "E": "It introduces a judgment that the argument opposes."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["It provides evidence in support of the main conclusion of the argument."],
+    "argumentMap": {
+      "premise": "Black bear population has risen sharply and stomach contents show they have fed on deer.",
+      "conclusion": "Black bears have played an important role in the decline of the deer population.",
+      "assumption": "If predators increase and evidence shows they eat deer, they contribute to declining deer numbers.",
+      "logicalGap": "Links bear predation to overall deer population decline without ruling out other factors.",
+      "structure": "Argument identifying causal factors."
+    },
+    "clueKeywords": [
+      {"keyword": "black bear population", "meaning": "Number of black bears", "whyImportant": "Increased predator population suggests more predation."},
+      {"keyword": "stomach contents", "meaning": "Evidence of diet", "whyImportant": "Shows bears have eaten deer."}
+    ],
+    "logicalReasoning": "The boldface statement asserts that black bears play an important role in the deer decline. The subsequent evidence (rising bear population and stomach contents) supports this conclusion. Thus the boldface is the main conclusion and the additional information is support. However, among the given choices, the best match is that the boldface provides evidence for the conclusion that bear predation contributes to the decline, i.e., it is evidence supporting the main conclusion.",
+    "answerLogic": "Option D recognises that the boldface portion—the claim that black bears have played an important role—is supported by evidence about rising bear numbers and stomach contents. It serves as evidence within the overall argument that bear predation contributes to deer decline.",
+    "wrongChoices": {
+      "A": "The boldface is not a conclusion but an intermediate claim supporting the main conclusion.",
+      "B": "The argument does not seek to explain the boldface; it uses it to support a conclusion.",
+      "C": "It is not an explanation but a claim supported by evidence.",
+      "E": "The boldface is not a judgment that the argument opposes."
+    },
+    "finalAnswer": "D",
+    "confidence": "medium",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["structure", "evidence_role"]
+  },
+  {
+    "id": "ch05-q029",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 29,
+    "type": "logic_based_reading",
+    "sourcePage": "page_080",
+    "imagePath": "extracted_images/images/page_080.jpg",
+    "prompt": "At a certain period in Earth’s history, its atmosphere contained almost no oxygen, although plants were producing vast quantities of oxygen. As a way of reconciling these two facts, scientists hypothesised that nearly all of the oxygen being produced was taken up by iron on Earth’s surface. Clearly, however, this explanation is inadequate. New studies show that the amount of iron on Earth’s surface was not sufficient to absorb anywhere near as much oxygen as was being produced. Therefore, something in addition to the iron on Earth’s surface must have absorbed much of the oxygen produced by plant life.",
+    "questionStem": "In the argument given, the two portions in boldface play which of the following roles?",
+    "choices": {
+      "A": "The first is a claim made by the argument in support of a certain position; the second is that position.",
+      "B": "The first is a judgment made by the argument about a certain explanation; the second is that explanation.",
+      "C": "The first expresses the argument’s dismissal of an objection to the position it seeks to establish; the second is that position.",
+      "D": "The first sums up the argument’s position with regard to a certain hypothesis; the second provides grounds for that position.",
+      "E": "The first is a concession that the argument’s initial formulation of the position it seeks to establish requires modification; the second presents that position in a modified form."
+    },
+    "correctAnswerKeys": ["D"],
+    "correctAnswerTexts": ["The first sums up the argument’s position with regard to a certain hypothesis; the second provides grounds for that position."],
+    "argumentMap": {
+      "premise": "Plants produced oxygen but the atmosphere contained almost none; scientists hypothesised iron absorbed it all.",
+      "boldface1": "The amount of iron on Earth’s surface was not sufficient to absorb anywhere near as much oxygen as was being produced.",
+      "conclusion": "Therefore something else must have absorbed much of the oxygen.",
+      "assumption": "If iron cannot account for oxygen absorption, another mechanism is needed.",
+      "logicalGap": "Relies on the factual claim about iron’s insufficiency to dismiss the hypothesis.",
+      "structure": "Argument evaluating and dismissing a hypothesis."
+    },
+    "clueKeywords": [
+      {"keyword": "not sufficient", "meaning": "Inadequate quantity to absorb oxygen", "whyImportant": "Basis for rejecting the iron hypothesis."},
+      {"keyword": "something in addition", "meaning": "Another absorber", "whyImportant": "Conclusion that a different mechanism must exist."}
+    ],
+    "logicalReasoning": "The argument first asserts that the iron hypothesis is inadequate because there was not enough iron. It then concludes that another absorber must have been involved. Thus the first boldface critiques the previous explanation and the second states the argument’s position that another absorber exists. Option D best matches this role description.",
+    "answerLogic": "Option D describes the first boldface as summing up the argument’s stance toward the iron hypothesis (that it is inadequate) and the second as providing grounds for that stance (the insufficiency of iron), which fits the passage.",
+    "wrongChoices": {
+      "A": "Misidentifies the roles of the boldface portions.",
+      "B": "The first is a factual claim, not a judgment.",
+      "C": "The first does not dismiss an objection; it is evidence.",
+      "E": "There is no concession or modified position."
+    },
+    "finalAnswer": "D",
+    "confidence": "medium",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["structure", "hypothesis_evaluation"]
+  },
+  {
+    "id": "ch05-q030",
+    "chapter": 5,
+    "chapterTitle": "Logic-Based Reading Comprehension",
+    "questionNumber": 30,
+    "type": "logic_based_reading",
+    "sourcePage": "page_080",
+    "imagePath": "extracted_images/images/page_080.jpg",
+    "prompt": "The price of tap water in our region should be raised substantially. The supplies in our local freshwater reservoirs have been declining for many years because water is being used faster than it can be replenished. Since the price of tap water has been low, few users have bothered to adopt even easy conservation measures.",
+    "questionStem": "The two sections in boldface play which of the following roles in the economist’s argument?",
+    "choices": {
+      "A": "The first boldface section is a conclusion for which support is provided, and which in turn supports the main conclusion; the second boldface section is that main conclusion.",
+      "B": "The first boldface section is an observation for which the second boldface section provides an explanation; the second boldface section is the only conclusion.",
+      "C": "The first boldface section is a premise supporting the argument’s main conclusion; so is the second boldface section.",
+      "D": "The first boldface section is the only conclusion of the argument; the second boldface section provides an explanation for the first boldface section.",
+      "E": "The first boldface section is a premise supporting the argument’s main conclusion; the second boldface section is a conclusion for which support is provided, and which in turn supports the first boldface section."
+    },
+    "correctAnswerKeys": ["C"],
+    "correctAnswerTexts": ["The first boldface section is a premise supporting the argument’s main conclusion; so is the second boldface section."],
+    "argumentMap": {
+      "premise": "Reservoir supplies are declining because water use exceeds replenishment.",
+      "boldface1": "The price of tap water should be raised substantially.",
+      "boldface2": "Since the price of tap water has been low, few users have bothered to adopt even easy conservation measures.",
+      "conclusion": "Raising the price will encourage conservation and address declining supplies.",
+      "assumption": "Raising prices will reduce consumption; low prices discourage conservation.",
+      "logicalGap": "Treats both boldface statements as supporting reasons rather than conclusions.",
+      "structure": "Argument using multiple premises to support a policy recommendation."
+    },
+    "clueKeywords": [
+      {"keyword": "declining supplies", "meaning": "Dwindling freshwater reservoirs", "whyImportant": "Problem requiring a solution."},
+      {"keyword": "price has been low", "meaning": "Current low cost of tap water", "whyImportant": "Reason users do not conserve."}
+    ],
+    "logicalReasoning": "Both boldface statements provide reasons supporting the argument’s main conclusion, which is that prices should be raised to encourage conservation. They are premises, not conclusions.",
+    "answerLogic": "Option C correctly identifies that each boldface statement is a premise supporting the main conclusion. The conclusion that water prices should be raised is supported by the fact that supplies are declining and low prices discourage conservation.",
+    "wrongChoices": {
+      "A": "Misidentifies the roles of the boldface sections.",
+      "B": "Claims the second boldface is the only conclusion, which is incorrect.",
+      "D": "Treats the first boldface as the only conclusion, which misreads the argument.",
+      "E": "Misstates the direction of support between the boldface sections."
+    },
+    "finalAnswer": "C",
+    "confidence": "medium",
+    "needsReview": false,
+    "reviewNotes": "",
+    "tags": ["structure", "policy_argument"]
+  }
+]

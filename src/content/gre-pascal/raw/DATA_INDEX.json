@@ -1,0 +1,119 @@
+{
+  "packageName": "GRE Pascal Website Codex Update Package",
+  "createdAt": "2026-05-27T13:16:07",
+  "userDecision": "Use current data as accepted/pass for website update. Ignore Chapter 1, Chapter 2, and Appendix for now.",
+  "chapters": [
+    {
+      "chapter": 3,
+      "title": "Text Completions",
+      "status": "accepted",
+      "sourceFolder": "accepted_chapters/chapter-03-text-completions",
+      "notes": "Markdown explanations from old handover; no normalized JSON included yet."
+    },
+    {
+      "chapter": 4,
+      "title": "Sentence Equivalence",
+      "status": "accepted",
+      "sourceFolder": "accepted_chapters/chapter-04-sentence-equivalence",
+      "primaryJson": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_sentence_equivalence_100_data_from_explanations.json",
+      "notes": "100-question compiled data draft; may require schema normalization."
+    },
+    {
+      "chapter": 5,
+      "title": "Logic-Based Reading Comprehension",
+      "status": "accepted",
+      "sourceFolder": "accepted_chapters/chapter-05-logic-based-reading",
+      "primaryJson": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-data.json",
+      "notes": "30 questions; minor schema cleanup may be needed."
+    },
+    {
+      "chapter": 6,
+      "title": "Verbal Practice Sets",
+      "status": "accepted-finalized-draft",
+      "sourceFolder": "accepted_chapters/chapter-06-verbal-practice-sets",
+      "primaryJson": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-data.json",
+      "notes": "Finalized 108-question package assembled from agent materials; usable as draft."
+    },
+    {
+      "chapter": 7,
+      "title": "Mathematics Review",
+      "status": "accepted-near-final",
+      "sourceFolder": "accepted_chapters/chapter-07-mathematics-review",
+      "primaryJson": "accepted_chapters/chapter-07-mathematics-review/chapter-07-data.json",
+      "notes": "Concept chapter. JSON is concept-oriented, not question-array."
+    },
+    {
+      "chapter": 8,
+      "title": "Mathematics Review Practice",
+      "status": "accepted",
+      "sourceFolder": "accepted_chapters/chapter-08-math-review-practice",
+      "primaryJson": "accepted_chapters/chapter-08-math-review-practice/chapter-08-data.json",
+      "notes": "60 questions accepted by user."
+    },
+    {
+      "chapter": 9,
+      "title": "Quantitative Practice Sets",
+      "status": "accepted-by-user-as-is",
+      "sourceFolder": "accepted_chapters/chapter-09-quantitative-practice-sets",
+      "primaryJson": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-data.json",
+      "notes": "User asked to accept data as-is. Stage2 may include placeholders/needsReview; website should render needs-review safely."
+    }
+  ],
+  "ignoredForNow": [
+    "Chapter 1",
+    "Chapter 2",
+    "Appendix"
+  ],
+  "validation": [
+    {
+      "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_sentence_equivalence_100_data_from_explanations.json",
+      "valid": true,
+      "type": "array",
+      "count": 100
+    },
+    {
+      "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-data.json",
+      "valid": true,
+      "type": "array",
+      "count": 30
+    },
+    {
+      "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-data.json",
+      "valid": true,
+      "type": "array",
+      "count": 108
+    },
+    {
+      "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-data.json",
+      "valid": true,
+      "type": "object",
+      "count": null,
+      "list_counts": {
+        "sections": 4,
+        "examples": 7,
+        "needs_review": 3
+      }
+    },
+    {
+      "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-data.json",
+      "valid": true,
+      "type": "array",
+      "count": 60
+    },
+    {
+      "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-data.json",
+      "valid": true,
+      "type": "object",
+      "count": null,
+      "list_counts": {
+        "questions": 43
+      }
+    },
+    {
+      "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-data.json",
+      "valid": true,
+      "type": "array",
+      "count": 162
+    }
+  ]
+}

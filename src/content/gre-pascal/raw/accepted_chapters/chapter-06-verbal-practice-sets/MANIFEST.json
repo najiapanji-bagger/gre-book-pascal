@@ -1,0 +1,47 @@
+[
+  {
+    "path": "README.md",
+    "size_bytes": 1157,
+    "sha256": "4bc831e5f2b088daec23b0ab947d34cbe16b79845bea5cf8093d9691044046e2"
+  },
+  {
+    "path": "chapter-06-data.json",
+    "size_bytes": 367491,
+    "sha256": "f8962f023a7f5f5a9688320f89bdbbee69fcd01b5c2f473d928e2e16f44d2989"
+  },
+  {
+    "path": "chapter-06-full-explanations.md",
+    "size_bytes": 238713,
+    "sha256": "9c07daaf82b49ffe205d96ff94f615dd57a558783ae22be06e3698ff03ffff7a"
+  },
+  {
+    "path": "chapter-06-inventory.md",
+    "size_bytes": 976,
+    "sha256": "a3715576e7e78095b031c96ab91f9b2fe45883f89c684be227f81875bbf6d04c"
+  },
+  {
+    "path": "chapter-06-needs-review.md",
+    "size_bytes": 453,
+    "sha256": "3b392e24389e0bc0b327e91b6b85855c842e13b34bc69e42776caa86f28d8603"
+  },
+  {
+    "path": "chapter-06-raw-extraction.md",
+    "size_bytes": 70821,
+    "sha256": "6c8867b490f930a4de741d9fb4827a8923b47866b4cd75d57af44292f2a66477"
+  },
+  {
+    "path": "chapter-06-reading-passages.md",
+    "size_bytes": 25098,
+    "sha256": "28631b5b919996aad8047d9e0c421899d5b869802b7998d9bb193b2bc10eaaaf"
+  },
+  {
+    "path": "chapter-06-reconciliation-notes.md",
+    "size_bytes": 1439,
+    "sha256": "3bba6e2eee0eb2cd1aa08d8d6600c1f683a6e692157b23ed398236aafe89360d"
+  },
+  {
+    "path": "chapter-06-status.md",
+    "size_bytes": 2205,
+    "sha256": "af0d7e0c7fa0b9dc10a611bb259e17709c800bd751603b09aad6e9f4c6fbfeb4"
+  }
+]

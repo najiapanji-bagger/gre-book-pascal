@@ -8,6 +8,7 @@ import {
   Search,
   Sparkles,
 } from "lucide-react"
+import { acceptedChapters, acceptedChapterStats } from "./content/gre-pascal/normalized"
 
 const PAGE_COUNT = 239
 const ALL = "all"
@@ -15,6 +16,7 @@ const pad = (value) => String(value).padStart(3, "0")
 const imagePath = (page) => `/images/page_${pad(page)}.jpg`
 
 const tabs = [
+  { id: "accepted", label: "Accepted Chapters", icon: BookOpen },
   { id: "read", label: "Read Book", icon: BookOpen },
   { id: "questions", label: "Practice Questions", icon: ListChecks },
   { id: "vocabulary", label: "Vocabulary", icon: Sparkles },
@@ -23,7 +25,7 @@ const tabs = [
 ]
 
 function App() {
-  const [activeTab, setActiveTab] = useState("read")
+  const [activeTab, setActiveTab] = useState("accepted")
   const [data, setData] = useState({ pages: [], sections: [], questions: [], vocabulary: [] })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState("")
@@ -92,6 +94,7 @@ function App() {
         ) : null}
         {!loading && !error ? (
           <>
+            {activeTab === "accepted" ? <AcceptedChapters /> : null}
             {activeTab === "read" ? <ReadBook pages={data.pages} sections={data.sections} /> : null}
             {activeTab === "questions" ? <PracticeQuestions questions={data.questions} sections={data.sections} /> : null}
             {activeTab === "vocabulary" ? <Vocabulary vocabulary={data.vocabulary} sections={data.sections} /> : null}
@@ -108,6 +111,199 @@ async function fetchJson(url) {
   const response = await fetch(url)
   if (!response.ok) throw new Error(`${url} returned ${response.status}`)
   return response.json()
+}
+
+function AcceptedChapters() {
+  const [query, setQuery] = useState("")
+  const [chapterFilter, setChapterFilter] = useState(ALL)
+  const [reviewFilter, setReviewFilter] = useState(ALL)
+  const [revealed, setRevealed] = useState(() => new Set())
+
+  const visibleChapters = useMemo(() => {
+    const needle = query.trim().toLowerCase()
+    return acceptedChapters.map((chapter) => {
+      const items = chapter.items.filter((item) => {
+        if (reviewFilter === "needs-review" && !item.needsReview) return false
+        if (reviewFilter === "accepted" && item.needsReview) return false
+        if (!needle) return true
+        const haystack = [
+          item.id,
+          item.type,
+          item.prompt,
+          item.questionStem,
+          item.explanation,
+          item.finalAnswer,
+          item.tags?.join(" "),
+        ].join(" ").toLowerCase()
+        return haystack.includes(needle)
+      })
+      const notes = chapter.notes.filter((note) => !needle || `${note.title} ${note.body}`.toLowerCase().includes(needle))
+      return { ...chapter, items, notes }
+    }).filter((chapter) => {
+      if (chapterFilter !== ALL && String(chapter.chapter) !== chapterFilter) return false
+      if (query.trim() && !chapter.items.length && !chapter.notes.length) return false
+      return true
+    })
+  }, [query, chapterFilter, reviewFilter])
+
+  const visibleItemCount = visibleChapters.reduce((sum, chapter) => sum + chapter.items.length, 0)
+
+  function toggleReveal(id) {
+    setRevealed((current) => {
+      const next = new Set(current)
+      if (next.has(id)) next.delete(id)
+      else next.add(id)
+      return next
+    })
+  }
+
+  return (
+    <div className="grid gap-5 lg:grid-cols-[300px_1fr]">
+      <FilterPanel title="Accepted Chapters">
+        <SearchInput value={query} onChange={setQuery} placeholder="Search accepted data" />
+        <OptionSelect
+          label="Chapter"
+          value={chapterFilter}
+          onChange={setChapterFilter}
+          options={acceptedChapters.map((chapter) => String(chapter.chapter))}
+        />
+        <OptionSelect
+          label="Review"
+          value={reviewFilter}
+          onChange={setReviewFilter}
+          options={["accepted", "needs-review"]}
+        />
+        <Metric label="Chapters" value={acceptedChapterStats.chapterCount} />
+        <Metric label="Accepted items" value={acceptedChapterStats.itemCount} />
+        <Metric label="Visible items" value={visibleItemCount} />
+        <Metric label="Needs review" value={acceptedChapterStats.needsReviewCount} />
+      </FilterPanel>
+
+      <section className="space-y-6">
+        {visibleChapters.map((chapter) => (
+          <article key={chapter.chapter} id={`chapter-${chapter.chapter}`} className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm">
+            <div className="flex flex-wrap items-start justify-between gap-4 border-b border-zinc-200 pb-4">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-emerald-700">Chapter {chapter.chapter}</p>
+                <h2 className="mt-1 text-2xl font-bold">{chapter.title}</h2>
+                <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">{chapter.sourceSummary}</p>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <Badge tone="green">{chapter.status}</Badge>
+                <Badge>{chapter.mode}</Badge>
+                {chapter.needsReviewCount ? <Badge tone="amber">{chapter.needsReviewCount} Needs Review</Badge> : null}
+              </div>
+            </div>
+
+            {chapter.conceptSections?.length ? (
+              <div className="mt-5 grid gap-3 md:grid-cols-2">
+                {chapter.conceptSections.map((section) => (
+                  <div key={section.section} className="rounded-md border border-zinc-200 bg-zinc-50 p-4">
+                    <h3 className="font-bold">{section.section}</h3>
+                    <p className="mt-2 whitespace-pre-wrap text-sm leading-6 text-zinc-700">{normalizeDisplay(section.topics)}</p>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+
+            {chapter.needsReviewNotes?.length ? (
+              <div className="mt-5 rounded-md border border-amber-200 bg-amber-50 p-4">
+                <h3 className="font-bold text-amber-950">Needs Review Notes</h3>
+                <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-amber-900">
+                  {chapter.needsReviewNotes.map((note) => <li key={note}>{note}</li>)}
+                </ul>
+              </div>
+            ) : null}
+
+            {chapter.notes.length ? (
+              <div className="mt-5 space-y-3">
+                {chapter.notes.map((note) => (
+                  <details key={note.id} className="rounded-md border border-zinc-200 bg-zinc-50 p-4">
+                    <summary className="cursor-pointer font-bold">{note.title}</summary>
+                    <div className="mt-3 max-h-96 overflow-auto whitespace-pre-wrap text-sm leading-6 text-zinc-800">
+                      <HighlightedText text={note.body} query={query} />
+                    </div>
+                  </details>
+                ))}
+              </div>
+            ) : null}
+
+            {chapter.items.length ? (
+              <div className="mt-5 space-y-3">
+                {chapter.items.map((item) => {
+                  const isRevealed = revealed.has(item.id)
+                  return (
+                    <div key={item.id} className="rounded-md border border-zinc-200 p-4">
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div>
+                          <p className="text-xs font-bold uppercase tracking-[0.16em] text-zinc-500">
+                            {item.type} {item.itemNumber ? `· Item ${item.itemNumber}` : ""}
+                            {item.practiceSet ? ` · Set ${item.practiceSet}` : ""}
+                            {item.sourcePage ? ` · Page ${item.sourcePage}` : ""}
+                          </p>
+                          <h3 className="mt-1 font-bold">{item.id}</h3>
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          {item.needsReview ? <Badge tone="amber">Needs Review</Badge> : <Badge tone="green">Accepted</Badge>}
+                          {item.confidence ? <Badge>{item.confidence}</Badge> : null}
+                        </div>
+                      </div>
+
+                      {item.passage ? <p className="mt-4 whitespace-pre-wrap text-sm leading-6 text-zinc-700">{item.passage}</p> : null}
+                      {item.prompt ? (
+                        <p className="mt-4 whitespace-pre-wrap text-[15px] leading-7 text-zinc-900">
+                          <HighlightedText text={item.prompt} query={query} />
+                        </p>
+                      ) : null}
+                      {item.questionStem ? <p className="mt-3 font-semibold leading-7 text-zinc-900">{item.questionStem}</p> : null}
+
+                      {item.choices.length ? (
+                        <div className="mt-4 grid gap-2">
+                          {item.choices.map((choice, index) => (
+                            <div key={`${item.id}-${choice.key}-${index}`} className="grid grid-cols-[34px_1fr] gap-3 rounded-md border border-zinc-200 p-3">
+                              <span className="flex h-8 w-8 items-center justify-center rounded-md bg-zinc-950 text-sm font-bold text-white">{choice.key}</span>
+                              <p className="text-sm leading-6">{choice.text}</p>
+                            </div>
+                          ))}
+                        </div>
+                      ) : null}
+
+                      <div className="mt-4 flex flex-wrap items-center gap-3">
+                        <button
+                          type="button"
+                          onClick={() => toggleReveal(item.id)}
+                          className="rounded-md bg-emerald-700 px-3 py-2 text-sm font-semibold text-white hover:bg-emerald-800"
+                        >
+                          {isRevealed ? "Hide answer" : "Reveal answer"}
+                        </button>
+                        {item.imagePath ? (
+                          <a className="rounded-md border border-zinc-300 px-3 py-2 text-sm font-semibold" href={item.imagePath} target="_blank" rel="noreferrer">
+                            Source page image
+                          </a>
+                        ) : null}
+                      </div>
+
+                      {isRevealed ? (
+                        <div className="mt-4 rounded-md bg-zinc-50 p-4 text-sm leading-6">
+                          <InfoRow label="Answer" value={item.correctAnswerTexts.length ? item.correctAnswerTexts.join(", ") : item.finalAnswer || "Needs review"} />
+                          {item.correctAnswerKeys.length ? <InfoRow label="Answer key" value={item.correctAnswerKeys.join(", ")} /> : null}
+                          {item.explanation ? <InfoRow label="Explanation" value={item.explanation} /> : null}
+                          {item.answerLogic ? <InfoRow label="Answer logic" value={item.answerLogic} /> : null}
+                          {item.solutionSteps.length ? <InfoRow label="Solution steps" value={item.solutionSteps.join("\n")} /> : null}
+                          {item.reviewNotes ? <InfoRow label="Review notes" value={item.reviewNotes} /> : null}
+                        </div>
+                      ) : null}
+                    </div>
+                  )
+                })}
+              </div>
+            ) : null}
+          </article>
+        ))}
+        {!visibleChapters.length ? <EmptyState text="No accepted chapter content matches the current filters." /> : null}
+      </section>
+    </div>
+  )
 }
 
 function ReadBook({ pages, sections }) {
@@ -529,7 +725,7 @@ function InfoRow({ label, value }) {
   return (
     <div>
       <dt className="font-bold text-zinc-500">{label}</dt>
-      <dd className="mt-1 text-zinc-900">{value}</dd>
+      <dd className="mt-1 whitespace-pre-wrap text-zinc-900">{value}</dd>
     </div>
   )
 }
@@ -572,6 +768,15 @@ function groupBySection(pages, sections) {
 
 function unique(values) {
   return [...new Set(values.filter(Boolean))].sort()
+}
+
+function normalizeDisplay(value) {
+  if (!value) return ""
+  if (Array.isArray(value)) return value.map(normalizeDisplay).filter(Boolean).join("\n")
+  if (typeof value === "object") {
+    return Object.entries(value).map(([key, item]) => `${key}: ${normalizeDisplay(item)}`).join("\n")
+  }
+  return String(value)
 }
 
 function range(start, end) {
