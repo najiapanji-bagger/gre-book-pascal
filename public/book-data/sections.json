@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Cover",
+    "startPage": 1,
+    "endPage": 1,
+    "pageCount": 1,
+    "ocrPages": 1
+  },
+  {
+    "title": "Table of Contents",
+    "startPage": 2,
+    "endPage": 3,
+    "pageCount": 2,
+    "ocrPages": 2
+  },
+  {
+    "title": "Preface",
+    "startPage": 4,
+    "endPage": 8,
+    "pageCount": 5,
+    "ocrPages": 5
+  },
+  {
+    "title": "Analytical Writing",
+    "startPage": 9,
+    "endPage": 19,
+    "pageCount": 11,
+    "ocrPages": 11
+  },
+  {
+    "title": "Introduction to Text Completions and Sentence Equivalence",
+    "startPage": 20,
+    "endPage": 40,
+    "pageCount": 21,
+    "ocrPages": 21
+  },
+  {
+    "title": "Text Completions",
+    "startPage": 41,
+    "endPage": 60,
+    "pageCount": 20,
+    "ocrPages": 20
+  },
+  {
+    "title": "Sentence Equivalence",
+    "startPage": 61,
+    "endPage": 71,
+    "pageCount": 11,
+    "ocrPages": 11
+  },
+  {
+    "title": "Logic Based Reading Comprehension",
+    "startPage": 72,
+    "endPage": 79,
+    "pageCount": 8,
+    "ocrPages": 8
+  },
+  {
+    "title": "Verbal Practice Sets",
+    "startPage": 80,
+    "endPage": 142,
+    "pageCount": 63,
+    "ocrPages": 63
+  },
+  {
+    "title": "Mathematics Review",
+    "startPage": 143,
+    "endPage": 150,
+    "pageCount": 8,
+    "ocrPages": 8
+  },
+  {
+    "title": "Mathematics Review Practice",
+    "startPage": 151,
+    "endPage": 169,
+    "pageCount": 19,
+    "ocrPages": 19
+  },
+  {
+    "title": "Quantitative Practice Sets",
+    "startPage": 170,
+    "endPage": 223,
+    "pageCount": 54,
+    "ocrPages": 54
+  },
+  {
+    "title": "Vocabulary Review",
+    "startPage": 224,
+    "endPage": 239,
+    "pageCount": 16,
+    "ocrPages": 16
+  }
+]

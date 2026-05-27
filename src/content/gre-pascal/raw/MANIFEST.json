@@ -1,0 +1,412 @@
+[
+  {
+    "path": "DATA_INDEX.json",
+    "size_bytes": 4257,
+    "sha256": "033e9dc54b8186cf9dc9fc1a15749c4863e128576bdf72a2fe84a9990919ebce"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 1355,
+    "sha256": "4b2c43b02c0b648fd753c7a4d0258f9e2b8030c1823db281a7c09795e69aee47"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/full_explanations.md",
+    "size_bytes": 14437,
+    "sha256": "9995c3a54277e456dbcbd49cf8cb7e46adb61f036d2baf044a0837537a6821db"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/handover.md",
+    "size_bytes": 7508,
+    "sha256": "84e44e80dec183adebfb18ab927ef76fcc59ccd6654a28c252981cb9188dc525"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/progress_report.md",
+    "size_bytes": 3318,
+    "sha256": "8a1f1018bbf235fc9692acd14517c0ace97ff1f86ac4fbe3e2c0d828285e59a3"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/progress_update.md",
+    "size_bytes": 4689,
+    "sha256": "b73f308f3fe6638cad30b42f10bca7d1b0d17273659264b6a279f05fc60c979b"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q26-45_explanations.md",
+    "size_bytes": 17131,
+    "sha256": "3171f1ff8fc2942a2833ededebaa7ccfd5933b2462c3d7daef1416001013b9dd"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q46-50_explanations.md",
+    "size_bytes": 7279,
+    "sha256": "7b6b2e2b2c6848799f5f7e3aae73ea16722ad0c297145a1a642a5d93b0c3d346"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q51-60_explanations.md",
+    "size_bytes": 14869,
+    "sha256": "1c38d030bdf67bd4de948125a775a49fb254f96786d68b341c04a78134da64d7"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q61-100_explanations.md",
+    "size_bytes": 52965,
+    "sha256": "03ad8e30c4309c425d8082dd330e50eb9699399e8329447500b75173aad48424"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q61-70_explanations.md",
+    "size_bytes": 13031,
+    "sha256": "ccc6f984b7235fae4a582f912ea14712de35920f97de186e99ade71c56c61616"
+  },
+  {
+    "path": "accepted_chapters/chapter-03-text-completions/q71-80_explanations.md",
+    "size_bytes": 13856,
+    "sha256": "109527041132bfd01700ebc0fca086bd39aba1008c9fcbd8707bf43e49d2f5d2"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q1-18_explanations.md",
+    "size_bytes": 15370,
+    "sha256": "95341486cd820e72b2c058f3a12b571d2048d7a19b94ac671526d0a03d26221c"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q1-50_explanations.md",
+    "size_bytes": 8170,
+    "sha256": "c77a90dc6d84473aa6e20550d9ba5113098a7664d3df7150ca2dca34ef27f8a6"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q19-30_explanations.md",
+    "size_bytes": 9949,
+    "sha256": "41d9738ce257b122bcd3dfa51ebf5574afa9ca9de2309b619a285603759ed825"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q31-40_explanations.md",
+    "size_bytes": 8216,
+    "sha256": "029aa1569b19416b04695ec279efe62ddc92178ee0abfa9bf316701481eb626b"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q41-50_explanations.md",
+    "size_bytes": 8733,
+    "sha256": "d9513b77019b7c19f33b683d67d73707a76d5de5a39097fc98f6b7730a2f4ffd"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q51-60_explanations.md",
+    "size_bytes": 9392,
+    "sha256": "703f5a922aa667aed5c33d4f1370ad23349c4bed27751a3bd0db9273530465cc"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q61-70_explanations.md",
+    "size_bytes": 9030,
+    "sha256": "1a32b0c8943c36efe0e1db02ec3c7e8d90711d805f6a1828a2e06da16abc9050"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q71-80_explanations.md",
+    "size_bytes": 9864,
+    "sha256": "3e6820c4a805971cd777d2e854acaac821edba7eeab0a2789c01d989fb185741"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q81-90_explanations.md",
+    "size_bytes": 16662,
+    "sha256": "cad42725f5b00d2b79eab1b2f630290971b198d059d399d89564b279a79747d7"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_q91-100_explanations.md",
+    "size_bytes": 12194,
+    "sha256": "21de2e2dc39031eca72b311a1ac532449f9854cf9a33241b0f274bda2c3325b1"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_sentence_equivalence_100_data_from_explanations.json",
+    "size_bytes": 173572,
+    "sha256": "de3a679537a713dfa10742ef1ee3dd05836b63f30d776fb06a79d5370c391340"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_sentence_equivalence_full_100_complete.md",
+    "size_bytes": 104552,
+    "sha256": "c160c948a57120c4d9bad2e338445e2fe7c32689ab283e23690bdb402d9fbe73"
+  },
+  {
+    "path": "accepted_chapters/chapter-04-sentence-equivalence/chapter4_website_system_data_format_update.md",
+    "size_bytes": 13109,
+    "sha256": "3610e3f292663a3fc50fedaa2aac0a31c4f7971768a810aec67d1844f7985b41"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/README.md",
+    "size_bytes": 1883,
+    "sha256": "92328802239b6d8b66e49ec29ef91c99be6384e4f76c96df11ebdd820eb4906a"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-data.json",
+    "size_bytes": 106553,
+    "sha256": "59b9643ee0d481c3e860cc9aa044efccaae9d54319274024fad5ac56f0d05c61"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-full-explanations.md",
+    "size_bytes": 123018,
+    "sha256": "ca14773990291f7d0d6b505fc9f6d8f736d82a5828c2d768c5b81be43e2728fa"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-needs-review.md",
+    "size_bytes": 22,
+    "sha256": "d49438769f7cc91294a94883572ee0315b77dcf297f3d40b2601b685b174ed86"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-raw-extraction.md",
+    "size_bytes": 38392,
+    "sha256": "1e1d62204f8e09f85780015204763db3af1579c08775e1732495a6133cc47a90"
+  },
+  {
+    "path": "accepted_chapters/chapter-05-logic-based-reading/chapter-05-status.md",
+    "size_bytes": 2540,
+    "sha256": "07d0eccdeab1ed2956bd4d71cccba780b3c2f74f6b48405f1387a3b70e8f634d"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/MANIFEST.json",
+    "size_bytes": 1397,
+    "sha256": "20c78801211f3ccfdddba61ebb038d81d7d0dccceea177c37f84cf668a1a345c"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/README.md",
+    "size_bytes": 1157,
+    "sha256": "4bc831e5f2b088daec23b0ab947d34cbe16b79845bea5cf8093d9691044046e2"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-data.json",
+    "size_bytes": 367491,
+    "sha256": "f8962f023a7f5f5a9688320f89bdbbee69fcd01b5c2f473d928e2e16f44d2989"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-full-explanations.md",
+    "size_bytes": 238713,
+    "sha256": "9c07daaf82b49ffe205d96ff94f615dd57a558783ae22be06e3698ff03ffff7a"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-inventory.md",
+    "size_bytes": 976,
+    "sha256": "a3715576e7e78095b031c96ab91f9b2fe45883f89c684be227f81875bbf6d04c"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-needs-review.md",
+    "size_bytes": 453,
+    "sha256": "3b392e24389e0bc0b327e91b6b85855c842e13b34bc69e42776caa86f28d8603"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-raw-extraction.md",
+    "size_bytes": 70821,
+    "sha256": "6c8867b490f930a4de741d9fb4827a8923b47866b4cd75d57af44292f2a66477"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-reading-passages.md",
+    "size_bytes": 25098,
+    "sha256": "28631b5b919996aad8047d9e0c421899d5b869802b7998d9bb193b2bc10eaaaf"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-reconciliation-notes.md",
+    "size_bytes": 1439,
+    "sha256": "3bba6e2eee0eb2cd1aa08d8d6600c1f683a6e692157b23ed398236aafe89360d"
+  },
+  {
+    "path": "accepted_chapters/chapter-06-verbal-practice-sets/chapter-06-status.md",
+    "size_bytes": 2205,
+    "sha256": "af0d7e0c7fa0b9dc10a611bb259e17709c800bd751603b09aad6e9f4c6fbfeb4"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/README.md",
+    "size_bytes": 1516,
+    "sha256": "78cef7711eefd611613220ccd37769fcc892402377155231d1d7101c604cd211"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-concept-notes.md",
+    "size_bytes": 8077,
+    "sha256": "164e82c5131c0bf87c5a5289e1ca9132050ae34fdbc8c1b9543f0f7eb1783963"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-data.json",
+    "size_bytes": 15743,
+    "sha256": "5ebbe0fee4e0ca13a0f4d49281347dc67c7457f399d03d4ea0f2b38b3134cadf"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-formula-sheet.md",
+    "size_bytes": 6387,
+    "sha256": "de037eeef6f34cd67deb2f99c5a6cd31da1cc87f3d7abf1cb02c287f6e8d69d6"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-needs-review.md",
+    "size_bytes": 1356,
+    "sha256": "db12e4945e989e63b636e74d9695128e5df413f24f620d6729ee6dbbb23a4682"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-raw-extraction.md",
+    "size_bytes": 6865,
+    "sha256": "6a5828521ec66bc4c885e2c3eb4be7b043dd75d1941d285da63e816aa52276f6"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-status.md",
+    "size_bytes": 1531,
+    "sha256": "5ea3710fa9fcc2bb2baf15554f1ae524768f26bac1d8a30d5625ffea14c752a0"
+  },
+  {
+    "path": "accepted_chapters/chapter-07-mathematics-review/chapter-07-worked-examples.md",
+    "size_bytes": 5253,
+    "sha256": "b35b76eadfe937e291ffbd5f155549ed5df0ae5a124fcd8e04746372df66affe"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/README.md",
+    "size_bytes": 2484,
+    "sha256": "011f7f06aca1ebd85afe2731577337547b48ecc3c31a1d4105abdca8223b6712"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-data.json",
+    "size_bytes": 155326,
+    "sha256": "6d68403206ddf083ee0990c2d69644b476fdd2001ec570b864e1ceee0481c591"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-full-solutions.md",
+    "size_bytes": 115931,
+    "sha256": "9343e5ec10bac58dee3da05cf44245f5f2a8a58b0b6a1dee6e88f274db5951f1"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-needs-review.md",
+    "size_bytes": 59,
+    "sha256": "b33bbe9d2f3b90f0d8dbce88b701ccf00a3b2c4f8563373f88bad9c9d85157da"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-raw-extraction.md",
+    "size_bytes": 25803,
+    "sha256": "5b47a323798a3473b4543be9bf264527433a0aa70dd5db25df483e329e0d972e"
+  },
+  {
+    "path": "accepted_chapters/chapter-08-math-review-practice/chapter-08-status.md",
+    "size_bytes": 4612,
+    "sha256": "97dfe2795c76c6717ce10b3856db95acd7a6daa34cb011536a594efbd926202a"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/README.md",
+    "size_bytes": 2206,
+    "sha256": "9681e83c23ed39839d885e8751eae73e54328beb24d076cbc885ca40145fc514"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/README.md",
+    "size_bytes": 1828,
+    "sha256": "340197228a3e609bc94defdf6c112d9eb30347d2065272dd6d9eb0b2978909e0"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-data.json",
+    "size_bytes": 12585,
+    "sha256": "23c83842489e974ac2c995d895116a248417cfc64c8163f5c3382d9b0c8417ac"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-full-solutions.md",
+    "size_bytes": 38676,
+    "sha256": "80218764390d335f6c259837c7a20e7bb671587c107dc3fb8c382f3683d44d2f"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-inventory.md",
+    "size_bytes": 4509,
+    "sha256": "f29ed5d8d8237d71427b388ed7d81409b4a6d18c12702f0522413115d6717c70"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-needs-review.md",
+    "size_bytes": 2098,
+    "sha256": "2462d6b38192eff2e588e29a6d0642e00dea314db58edd57c9922fe68d7c867f"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-raw-extraction.md",
+    "size_bytes": 16074,
+    "sha256": "8e7bb29d79a0d8d54a8b234218abf730adee42cf5f3e2687117594c29b966155"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/_previous_agent_draft_reference_from_ch7_ch9_zip/chapter-09-status.md",
+    "size_bytes": 3044,
+    "sha256": "7e56aa467fa8448b4a4fd5c93c7ca438b5b5c7f4fbb78b345f9044337ddcabff"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-data.json",
+    "size_bytes": 126597,
+    "sha256": "211a65578b9d3db0a14fa143e2c717de340d32ff59570c14a3c683e0c75a8954"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-full-solutions.md",
+    "size_bytes": 11963,
+    "sha256": "72909c94d6608971f61ee4e812572cf3a88b8d09925c1a5e591b5fe9f25d297b"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-needs-review.md",
+    "size_bytes": 2601,
+    "sha256": "d4f327535fc69c0ebd6887d231fb041aebe27ae052f6ad8525d1f08915581773"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-raw-extraction.md",
+    "size_bytes": 28772,
+    "sha256": "bf1d8fd730d216188e4d46ab06d80b195d1496ab8a789b91f2f331845ec74754"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/chapter-09-status.md",
+    "size_bytes": 2505,
+    "sha256": "e37751fd3cd4b58e9828b14aea2595a3e9d5ef229b5df99d9e3e1aaa1119e195"
+  },
+  {
+    "path": "accepted_chapters/chapter-09-quantitative-practice-sets/generate_chapter_09_data.py",
+    "size_bytes": 7862,
+    "sha256": "fa2d74abf285a266f8d6aad5efe3a16b280bdf06794247923a019f573fa811c6"
+  },
+  {
+    "path": "codex/CODEX_IMPLEMENTATION_PROMPT.md",
+    "size_bytes": 4463,
+    "sha256": "3086798faf9c98804de0b9bede8e817b54ed2580fd2a429e2016ab634b78f406"
+  },
+  {
+    "path": "codex/WEBSITE_DATA_NORMALIZATION_NOTES.md",
+    "size_bytes": 658,
+    "sha256": "ca463dd7f1d773edcc7550067f32c4686e00df8954fa3437aae3eef5d23a4f58"
+  },
+  {
+    "path": "reports/PROJECT_STATUS_FOR_CODEX.md",
+    "size_bytes": 1446,
+    "sha256": "d133da0d2f1cdb7a0046100dfe08d854688bb2db14826bed0516f183c1e27413"
+  },
+  {
+    "path": "source_assets/images.zip",
+    "size_bytes": 19298758,
+    "sha256": "74da0508768c6e90cd22047512462325e9c930add1d5ff4951c39efd209eeaf4"
+  },
+  {
+    "path": "source_packages/Akses Repo GitHub.pdf",
+    "size_bytes": 47345,
+    "sha256": "247714205240b30f2326cb41ab59f48f8094ebcd69bc1ee4aabe96ea1d3edf2b"
+  },
+  {
+    "path": "source_packages/chapter-05-logic-based-reading-handover.zip",
+    "size_bytes": 71683,
+    "sha256": "3f23c5280435d56743e1e2ed4a30abfd9729194fa4e842ab4c8300cb2e2bf1cc"
+  },
+  {
+    "path": "source_packages/chapter-06-verbal-practice-sets-FINALIZED-108.zip",
+    "size_bytes": 98002,
+    "sha256": "ee030af8441898b5bdd2f5c7cb24e45aa735d74570b133bdae90e00b3c9bd922"
+  },
+  {
+    "path": "source_packages/chapter-08-math-review-practice-handover (1).zip",
+    "size_bytes": 72063,
+    "sha256": "4dfc484ac39bf634e6b57207389953c234e7aceff7e5746024b5cc7ce451a384"
+  },
+  {
+    "path": "source_packages/chapter-09-stage2.zip",
+    "size_bytes": 24596,
+    "sha256": "55d60b3b6a8125d5cbdcf6f59ab8694f0fb2515ced9eeca8bd3986e18551d20e"
+  },
+  {
+    "path": "source_packages/chapters-07-and-09-quant-handover (1).zip",
+    "size_bytes": 48929,
+    "sha256": "855f8ab62deae54c8d23f062033a11085a8d3dcc0b24beb93c061e91f3cd5bcb"
+  },
+  {
+    "path": "source_packages/gre_book_handover.zip",
+    "size_bytes": 68064,
+    "sha256": "7c67c13ebc872aaa42453ece646fa0e4b2b1e4a088605a2095c794808b9217fd"
+  },
+  {
+    "path": "source_packages/gre_pascal_book_corrected_full_status_report.md",
+    "size_bytes": 8346,
+    "sha256": "28c007e525d48b9477e52bc049115176e9b204b584a58225453ad25d9d302033"
+  },
+  {
+    "path": "source_packages/gre_pascal_book_master_handover_for_next_ai.md",
+    "size_bytes": 17389,
+    "sha256": "f30f59c3480b3e55b74fa0fd170a0c802b4b389e70556b5938e7ac5126cece12"
+  }
+]

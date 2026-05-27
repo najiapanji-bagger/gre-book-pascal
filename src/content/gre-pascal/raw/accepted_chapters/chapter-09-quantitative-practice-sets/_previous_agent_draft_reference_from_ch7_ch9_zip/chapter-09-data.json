@@ -1,0 +1,395 @@
+{
+  "metadata": {
+    "total_sets": 6,
+    "total_questions": 151
+  },
+  "questions": [
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q1",
+      "type": "QC",
+      "summary": "Compare the 25th decimal digit of 4/11 with 4.",
+      "answer": "B",
+      "keywords": ["repeating decimals", "modular arithmetic"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q2",
+      "type": "QC",
+      "summary": "x^3 > 0, y^2 < 0; compare x and y.",
+      "answer": "D",
+      "keywords": ["real numbers", "impossible conditions"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q3",
+      "type": "QC",
+      "summary": "Compare an original price to the price after unspecified reductions.",
+      "answer": "D",
+      "keywords": ["percent decrease", "insufficient information"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q4",
+      "type": "QC",
+      "summary": "n is a negative even integer; compare (-1/3)^n with (-3)^n.",
+      "answer": "A",
+      "keywords": ["negative exponents", "reciprocals"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q5",
+      "type": "QC",
+      "summary": "Solve x(x-2)/(x+3)(x-4)=0; compare x with -2.",
+      "answer": "A",
+      "keywords": ["rational equations", "zeros"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q6",
+      "type": "QC",
+      "summary": "Find all integers n satisfying |n+1|<5 and compare n with -5.",
+      "answer": "D",
+      "keywords": ["absolute value", "inequalities"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q7",
+      "type": "QC",
+      "summary": "Expand (4x-2y)(6x+3y); compare resulting expression to 6.",
+      "answer": "B",
+      "keywords": ["algebraic expansion"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q8",
+      "type": "QC",
+      "summary": "Remainders r and R when dividing n by 4 and 9; compare r+R to 9.",
+      "answer": "D",
+      "keywords": ["remainders", "modular arithmetic"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q9",
+      "type": "MC",
+      "summary": "x,y positive integers satisfying x^3 y^2 = 2000; find xy.",
+      "answer": 20,
+      "keywords": ["prime factorization", "Diophantine equations"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q10",
+      "type": "MC",
+      "summary": "Minimise the range of student heights based on a frequency table.",
+      "answer": 16,
+      "keywords": ["range", "grouped data"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q11",
+      "type": "MC",
+      "summary": "Rectangular patio with perimeter 42 ft and width 75% of length; find area.",
+      "answer": 108,
+      "keywords": ["rectangle perimeter", "percent relationships"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q12",
+      "type": "SelectAll",
+      "summary": "Identify chair numbers not inspected by inspectors who check every 3rd and 5th chair.",
+      "answer": [14, 74, 94],
+      "keywords": ["divisibility", "LCM"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q13",
+      "type": "SelectAll",
+      "summary": "Triangle ABC with fixed points A(1,0), B(6,0); choose integer coordinates of C above x-axis so area = 10.",
+      "answer": [[0,4], [3,4], [12,4]],
+      "keywords": ["triangle area", "coordinate geometry"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q14",
+      "type": "Numeric",
+      "summary": "Car travels 2400 m in 1 min 48 s; compute speed in km/h.",
+      "answer": 80,
+      "keywords": ["unit conversion", "speed"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q15",
+      "type": "Numeric",
+      "summary": "Doctor prescribes 18 cc drug; typical dose 2 cc per 15 lb for 120 lb. Find percent difference.",
+      "answer": 12.5,
+      "keywords": ["proportion", "percentage difference"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 1",
+      "number": "Q16",
+      "type": "Numeric",
+      "summary": "Two circles tangent internally; AB is diameter of small and radius of large. Find area ratio.",
+      "answer": 0.25,
+      "keywords": ["circles", "ratio"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q1",
+      "type": "QC",
+      "summary": "Isosceles triangle sides 3 and 7; compare third side to 7.",
+      "answer": "C",
+      "keywords": ["triangle inequality", "isosceles"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q2",
+      "type": "QC",
+      "summary": "Integer N > 3999; compare thousands digit to 3.",
+      "answer": "D",
+      "keywords": ["place value"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q3",
+      "type": "QC",
+      "summary": "Compare standard deviations of data set and the same set plus 3.",
+      "answer": "C",
+      "keywords": ["standard deviation", "data shift"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q4",
+      "type": "QC",
+      "summary": "36 students in psych, 28 in stats, 17 in both; compare number enrolled in exactly one with number enrolled in both.",
+      "answer": "C",
+      "keywords": ["Venn diagram", "inclusion-exclusion"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q5",
+      "type": "QC",
+      "summary": "If x^2=16 and y^2=64, compare x and y.",
+      "answer": "D",
+      "keywords": ["square roots", "sign ambiguity"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q6",
+      "type": "QC",
+      "summary": "10^x is 0.1% of 10^y; find y in terms of x.",
+      "answer": "x+3",
+      "keywords": ["exponents", "percentages"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q7",
+      "type": "MC",
+      "summary": "55% of employees are men; 30% are full-time; 60% of full-time are women. What percent of full-time employees are men?",
+      "answer": 40,
+      "keywords": ["percentages", "conditional fractions"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q8",
+      "type": "MC",
+      "summary": "a=√2-1, b=1; evaluate [a^2+b(b+2a)] + [b^2+a(a+2b)].",
+      "answer": 4,
+      "keywords": ["algebra", "radicals"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q9",
+      "type": "SelectAll",
+      "summary": "Sequence defined by a_{n+1} = 2a_n - 3, a4=19; which numbers could be in the sequence?",
+      "answer": [5, 11, 35, 67],
+      "keywords": ["recurrence", "integer sequences"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q10",
+      "type": "Numeric",
+      "summary": "Solve 3x-13>-38 and 4-5x>38; give a solution.",
+      "answer": -7.5,
+      "keywords": ["linear inequalities"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q11",
+      "type": "Numeric",
+      "summary": "Find smallest integer n such that |2n+1|=3.",
+      "answer": -2,
+      "keywords": ["absolute value", "piecewise equations"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q12",
+      "type": "Numeric",
+      "summary": "Compute (1+1/x)*(1/x) for x=10^{-1}.",
+      "answer": 110,
+      "keywords": ["negative exponents"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q13",
+      "type": "Numeric",
+      "summary": "Jack’s salary increases 10%, Anne’s decreases 5%. Their 2016 salaries equal; find percent difference between 2015 salaries.",
+      "answer": 15.8,
+      "keywords": ["percent change", "equations"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q14",
+      "type": "Numeric",
+      "summary": "Greeting card revenue rises from $4.50B (2018) to $5.75B (2021); compute average annual percent increase.",
+      "answer": 9,
+      "keywords": ["compound growth", "CAGR"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 1 Part 2",
+      "number": "Q15",
+      "type": "Numeric",
+      "summary": "In 2021 revenue is $5.75B, price per card $1.25, top ten occasions total 3.9B cards; estimate cards for other occasions.",
+      "answer": 0.7,
+      "keywords": ["division", "subtraction"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q1",
+      "type": "QC",
+      "summary": "Circle’s circumference given as 2π×3^2; compare area to 27.",
+      "answer": "A",
+      "keywords": ["circles", "interpretation"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q2",
+      "type": "QC",
+      "summary": "Evaluate [(1/4)^{-1}+(1/4)^{-2}+(1/4)^{-3}]/4 and compare to 21.",
+      "answer": "C",
+      "keywords": ["negative exponents"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q3",
+      "type": "QC",
+      "summary": "Right triangle subdivided by altitude; compare two acute angles x and y.",
+      "answer": "C",
+      "keywords": ["right-triangle similarity"],
+      "needs_review": true
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q4",
+      "type": "QC",
+      "summary": "Company X: 21 employees, total salary $781,200; 12 earn < $37,000. Compare mean and median.",
+      "answer": "A",
+      "keywords": ["mean", "median"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q5",
+      "type": "MC",
+      "summary": "8^m = 16^t; express m in terms of t.",
+      "answer": "4t/3",
+      "keywords": ["exponential equations"],
+      "needs_review": true
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q6",
+      "type": "MC",
+      "summary": "Right triangle legs ratio 2:5, area 20; find hypotenuse.",
+      "answer": "2√29",
+      "keywords": ["triangle area", "Pythagorean theorem"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q7",
+      "type": "MC",
+      "summary": "Of 100 applicants, 64 have experience, 90 have degrees, 63 have both; what percent of those without experience also lack a degree?",
+      "answer": 25,
+      "keywords": ["Venn diagrams", "percentages"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q8",
+      "type": "SelectAll",
+      "summary": "Restaurant spends 55–70% on food, 23–28% on staff; revenue $80k; which profits are possible?",
+      "answer": [1800, 10000, 16000],
+      "keywords": ["percentage ranges", "profits"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q9",
+      "type": "SelectAll",
+      "summary": "Tank leaks at 0.5 oz/s from noon to 8pm (8h); which initial volumes empty by 8pm?",
+      "answer": [1280, 6480, 10240, 12800],
+      "keywords": ["rate", "time"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q10",
+      "type": "Numeric",
+      "summary": "Roots a,b of x^2-5x+4=0; compute (1+a)/(1+b)+(1+b)/(1+a).",
+      "answer": 2.9,
+      "keywords": ["quadratic roots", "symmetric expressions"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q11",
+      "type": "Numeric",
+      "summary": "Rectangle ABCD with E beyond B such that BE=AD; find area of triangle CDE.",
+      "answer": 21,
+      "keywords": ["geometry", "similar triangles"],
+      "needs_review": false
+    },
+    {
+      "practice_set": "Set 2 Part 1",
+      "number": "Q12",
+      "type": "Numeric",
+      "summary": "Martha fixed in centre seat; number of ways her four friends can be seated in remaining seats.",
+      "answer": 24,
+      "keywords": ["permutations"],
+      "needs_review": false
+    }
+  ]
+}

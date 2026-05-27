@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "ocr": "node scripts/ocr-pages.mjs",
+    "build:data": "node scripts/build-book-data.mjs",
+    "audit:book": "node scripts/audit-book-data.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
